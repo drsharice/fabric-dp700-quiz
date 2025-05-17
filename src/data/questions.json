@@ -1,0 +1,1763 @@
+[
+    {
+        "id": 1,
+        "domain": "Prepare the Data",
+        "question": "Which of the following tools can be used to clean data in Power BI?",
+        "type": "checkbox",
+        "options": ["Power Query", "DAX", "Dataflows", "Kusto"],
+        "answer": ["Power Query", "Dataflows"]
+    },
+    {
+        "id": 2,
+        "domain": "Visualize the Data",
+        "question": "What type of visualization best shows trends over time?",
+        "type": "radio",
+        "options": ["Bar Chart", "Pie Chart", "Line Chart", "Map"],
+        "answer": ["Line Chart"]
+    },
+   {
+    "id": 3,
+    "domain": "Lakehouse",
+    "question": "What technology format do Fabric lakehouses use to support ACID transactions?",
+    "type": "radio",
+    "options": ["Parquet", "JSON", "Delta Lake", "CSV"],
+    "answer": ["Delta Lake"]
+  },
+  {
+    "id": 4,
+    "domain": "Lakehouse",
+    "question": "Which of the following are benefits of using a lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "Combines data lake scalability with SQL-based analytics",
+      "Supports ACID transactions",
+      "Only supports structured data",
+      "Provides a single environment for multiple data roles"
+    ],
+    "answer": [
+      "Combines data lake scalability with SQL-based analytics",
+      "Supports ACID transactions",
+      "Provides a single environment for multiple data roles"
+    ]
+  },
+  {
+    "id": 5,
+    "domain": "Lakehouse",
+    "question": "Which Fabric tool is used to orchestrate ETL processes for loading data into a lakehouse?",
+    "type": "radio",
+    "options": ["Power BI", "Dataflows Gen2", "Data Factory", "SQL Server Agent"],
+    "answer": ["Data Factory"]
+  },
+  {
+    "id": 6,
+    "domain": "Lakehouse",
+    "question": "How can you ingest data into a Fabric lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "Using local file uploads",
+      "From external sources via shortcuts",
+      "Only through Power BI",
+      "By APIs and databases"
+    ],
+    "answer": [
+      "Using local file uploads",
+      "From external sources via shortcuts",
+      "By APIs and databases"
+    ]
+  },
+  {
+    "id": 7,
+    "domain": "Lakehouse",
+    "question": "Which tool is visually driven and based on Power Query for transforming data into a Fabric lakehouse?",
+    "type": "radio",
+    "options": ["Apache Spark", "SQL Notebooks", "Dataflows Gen2", "Microsoft Purview"],
+    "answer": ["Dataflows Gen2"]
+  },
+  {
+    "id": 8,
+    "domain": "Lakehouse",
+    "question": "What are two access control options available for securing Fabric lakehouses?",
+    "type": "checkbox",
+    "options": [
+      "Item-level sharing",
+      "Dataflow encryption",
+      "Workspace roles",
+      "Schema locking"
+    ],
+    "answer": ["Item-level sharing", "Workspace roles"]
+  },
+  {
+    "id": 9,
+    "domain": "Lakehouse",
+    "question": "Which schema approach is used by lakehouses for data interpretation?",
+    "type": "radio",
+    "options": ["Schema-on-write", "Schema-on-read", "Predefined schema", "Flat schema"],
+    "answer": ["Schema-on-read"]
+  },{
+    "id": 10,
+    "domain": "Lakehouse",
+    "question": "What are the three data items automatically created when a new Fabric lakehouse is created?",
+    "type": "checkbox",
+    "options": [
+      "Lakehouse (files, folders, tables)",
+      "Semantic model",
+      "SQL analytics endpoint",
+      "Dataflow Gen2"
+    ],
+    "answer": [
+      "Lakehouse (files, folders, tables)",
+      "Semantic model",
+      "SQL analytics endpoint"
+    ]
+  },
+  {
+    "id": 11,
+    "domain": "Lakehouse",
+    "question": "Which tool provides read-only access to query tables in a Fabric lakehouse using SQL?",
+    "type": "radio",
+    "options": ["Power BI", "Lakehouse Explorer", "SQL analytics endpoint", "Data Factory"],
+    "answer": ["SQL analytics endpoint"]
+  },
+  {
+    "id": 12,
+    "domain": "Lakehouse",
+    "question": "What are valid methods for ingesting data into a Fabric lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "Uploading local files",
+      "Using Dataflows Gen2",
+      "Developing Power BI reports",
+      "Running Apache Spark notebooks",
+      "Copying data with Data Factory pipelines"
+    ],
+    "answer": [
+      "Uploading local files",
+      "Using Dataflows Gen2",
+      "Running Apache Spark notebooks",
+      "Copying data with Data Factory pipelines"
+    ]
+  },
+  {
+    "id": 13,
+    "domain": "Lakehouse",
+    "question": "Which Apache Spark capability allows users to submit batch or streaming jobs using compiled binaries like .jar files?",
+    "type": "radio",
+    "options": ["Notebooks", "Spark job definitions", "Power Query", "Data Factory activities"],
+    "answer": ["Spark job definitions"]
+  },
+  {
+    "id": 14,
+    "domain": "Lakehouse",
+    "question": "What are key features of Fabric shortcuts in a lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "They copy data from external sources into your lakehouse",
+      "They enable integration with external storage without moving the data",
+      "They appear as folders in your lakehouse",
+      "They require permissions in the target location"
+    ],
+    "answer": [
+      "They enable integration with external storage without moving the data",
+      "They appear as folders in your lakehouse",
+      "They require permissions in the target location"
+    ]
+  },
+  {
+    "id": 15,
+    "domain": "Lakehouse",
+    "question": "Which identity is used for authorization when accessing a shortcut pointing to another OneLake location?",
+    "type": "radio",
+    "options": [
+      "Service principal identity",
+      "Lakehouse owner identity",
+      "Calling user’s identity",
+      "Fabric system account"
+    ],
+    "answer": ["Calling user’s identity"]
+  },
+   {
+    "id": 16,
+    "domain": "Lakehouse",
+    "question": "Which tools can be used to both ingest and transform data in a Fabric lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "Notebooks",
+      "Power BI Desktop",
+      "Dataflows Gen2",
+      "Data Factory Pipelines"
+    ],
+    "answer": [
+      "Notebooks",
+      "Dataflows Gen2",
+      "Data Factory Pipelines"
+    ]
+  },
+  {
+    "id": 17,
+    "domain": "Lakehouse",
+    "question": "Which Fabric tool is ideal for developers experienced with Power BI or Excel?",
+    "type": "radio",
+    "options": ["Notebooks", "Dataflows Gen2", "SQL analytics endpoint", "Spark job definitions"],
+    "answer": ["Dataflows Gen2"]
+  },
+  {
+    "id": 18,
+    "domain": "Lakehouse",
+    "question": "Which tools can data scientists use in Fabric to explore data and train machine learning models?",
+    "type": "checkbox",
+    "options": [
+      "SQL analytics endpoint",
+      "Data wrangler",
+      "Notebooks",
+      "Power Automate"
+    ],
+    "answer": [
+      "Data wrangler",
+      "Notebooks"
+    ]
+  },
+  {
+    "id": 19,
+    "domain": "Lakehouse",
+    "question": "After data is transformed in a lakehouse, how can it be stored?",
+    "type": "radio",
+    "options": ["Only in CSV format", "As Delta tables or files", "Only in Excel workbooks", "Only in Semantic Models"],
+    "answer": ["As Delta tables or files"]
+  },
+  {
+    "id": 20,
+    "domain": "Lakehouse",
+    "question": "Which Fabric item allows analysts to query, aggregate, and filter lakehouse table data using SQL?",
+    "type": "radio",
+    "options": ["Semantic model", "Lakehouse Explorer", "Data wrangler", "SQL analytics endpoint"],
+    "answer": ["SQL analytics endpoint"]
+  },
+  {
+    "id": 21,
+    "domain": "Lakehouse",
+    "question": "What are some of the benefits of combining Power BI with a Fabric lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "End-to-end analytics on one platform",
+      "Improved source control integration",
+      "Centralized data storage",
+      "Tabular schema support for visualization"
+    ],
+    "answer": [
+      "End-to-end analytics on one platform",
+      "Centralized data storage",
+      "Tabular schema support for visualization"
+    ]
+  },
+   {
+    "id": 22,
+    "domain": "Apache Spark",
+    "question": "What is Apache Spark primarily used for?",
+    "type": "radio",
+    "options": [
+      "Real-time video editing",
+      "Parallel processing of large-scale data",
+      "Managing relational databases",
+      "Designing websites"
+    ],
+    "answer": ["Parallel processing of large-scale data"]
+  },
+  {
+    "id": 23,
+    "domain": "Apache Spark",
+    "question": "Which platforms offer Apache Spark implementations?",
+    "type": "checkbox",
+    "options": [
+      "Azure HDInsight",
+      "Azure Synapse Analytics",
+      "Microsoft Fabric",
+      "Power BI"
+    ],
+    "answer": [
+      "Azure HDInsight",
+      "Azure Synapse Analytics",
+      "Microsoft Fabric"
+    ]
+  },
+  {
+    "id": 24,
+    "domain": "Apache Spark",
+    "question": "What is a key benefit of using Apache Spark in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "It eliminates the need for coding",
+      "It runs only on local machines",
+      "It is integrated with other data services in the same environment",
+      "It only supports batch processing"
+    ],
+    "answer": ["It is integrated with other data services in the same environment"]
+  },
+  {
+    "id": 25,
+    "domain": "Apache Spark",
+    "question": "Which of the following tasks can you perform using Spark in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Ingest data into a lakehouse",
+      "Process large-scale datasets",
+      "Train machine learning models outside of Fabric",
+      "Analyze data in conjunction with other Fabric services"
+    ],
+    "answer": [
+      "Ingest data into a lakehouse",
+      "Process large-scale datasets",
+      "Analyze data in conjunction with other Fabric services"
+    ]
+  },
+  {
+    "id": 26,
+    "domain": "Apache Spark",
+    "question": "What is the purpose of a Spark pool in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To visualize data using Power BI",
+      "To manage SQL-only analytics",
+      "To distribute data processing tasks across compute nodes",
+      "To store ML models"
+    ],
+    "answer": ["To distribute data processing tasks across compute nodes"]
+  },
+  {
+    "id": 27,
+    "domain": "Apache Spark",
+    "question": "Which languages are commonly used with Spark for data engineering and analytics?",
+    "type": "checkbox",
+    "options": [
+      "JavaScript",
+      "PySpark",
+      "Spark SQL",
+      "Scala"
+    ],
+    "answer": [
+      "PySpark",
+      "Spark SQL",
+      "Scala"
+    ]
+  },
+  {
+    "id": 28,
+    "domain": "Apache Spark",
+    "question": "What are two types of nodes in a Spark pool?",
+    "type": "checkbox",
+    "options": [
+      "Control nodes",
+      "Head nodes",
+      "Worker nodes",
+      "Cluster nodes"
+    ],
+    "answer": [
+      "Head nodes",
+      "Worker nodes"
+    ]
+  },
+  {
+    "id": 29,
+    "domain": "Apache Spark",
+    "question": "What feature allows Spark to allocate executor processes dynamically based on data volume?",
+    "type": "radio",
+    "options": [
+      "Autoscale",
+      "High concurrency mode",
+      "Native execution engine",
+      "Dynamic allocation"
+    ],
+    "answer": ["Dynamic allocation"]
+  },
+  {
+    "id": 30,
+    "domain": "Apache Spark",
+    "question": "Which of the following are configuration settings available for Spark pools in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Node Family",
+      "Autoscale",
+      "Notebook Sharing",
+      "Dynamic Allocation"
+    ],
+    "answer": [
+      "Node Family",
+      "Autoscale",
+      "Dynamic Allocation"
+    ]
+  },
+  {
+    "id": 31,
+    "domain": "Apache Spark",
+    "question": "What is the role of a Spark environment in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To store and manage datasets",
+      "To define runtimes, libraries, and settings for Spark tasks",
+      "To back up Spark jobs automatically",
+      "To visualize Spark job progress in Power BI"
+    ],
+    "answer": ["To define runtimes, libraries, and settings for Spark tasks"]
+  },
+  {
+    "id": 32,
+    "domain": "Apache Spark",
+    "question": "Which features can be configured when creating a Spark environment in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Select Spark runtime version",
+      "Install libraries from PyPI",
+      "Set data refresh rate",
+      "Specify Spark pool"
+    ],
+    "answer": [
+      "Select Spark runtime version",
+      "Install libraries from PyPI",
+      "Specify Spark pool"
+    ]
+  },
+  {
+    "id": 33,
+    "domain": "Apache Spark",
+    "question": "Which Spark feature significantly improves performance by running operations directly on lakehouse infrastructure?",
+    "type": "radio",
+    "options": [
+      "Spark SQL Engine",
+      "High concurrency mode",
+      "Native execution engine",
+      "Autoscale"
+    ],
+    "answer": ["Native execution engine"]
+  },
+  {
+    "id": 34,
+    "domain": "Apache Spark",
+    "question": "How can you enable the native execution engine in a notebook?",
+    "type": "radio",
+    "options": [
+      "Enable it in Power BI settings",
+      "Use %%configure with Spark properties",
+      "Enable it in SQL endpoint",
+      "It is always enabled by default"
+    ],
+    "answer": ["Use %%configure with Spark properties"]
+  },
+  {
+    "id": 35,
+    "domain": "Apache Spark",
+    "question": "What are benefits of enabling high concurrency mode in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Faster visualization rendering in Power BI",
+      "Efficient resource usage across users",
+      "Shared Spark sessions for multiple users",
+      "Isolation of variables in notebooks"
+    ],
+    "answer": [
+      "Efficient resource usage across users",
+      "Shared Spark sessions for multiple users",
+      "Isolation of variables in notebooks"
+    ]
+  },
+  {
+    "id": 36,
+    "domain": "Apache Spark",
+    "question": "Which feature logs machine learning experiment activity automatically in Fabric Spark environments?",
+    "type": "radio",
+    "options": [
+      "AutoML",
+      "MLFlow",
+      "Delta Logging",
+      "Power Query"
+    ],
+    "answer": ["MLFlow"]
+  },
+     {
+    "id": 37,
+    "domain": "Apache Spark",
+    "question": "What is the most commonly used data structure in Spark for working with structured data?",
+    "type": "radio",
+    "options": ["RDD", "Pandas dataframe", "Spark dataframe", "SQL table"],
+    "answer": ["Spark dataframe"]
+  },
+  {
+    "id": 38,
+    "domain": "Apache Spark",
+    "question": "What are benefits of explicitly specifying a schema when loading data into a Spark dataframe?",
+    "type": "checkbox",
+    "options": [
+      "Improves performance",
+      "Avoids reliance on header rows",
+      "Automatically partitions the data",
+      "Enables data visualization"
+    ],
+    "answer": [
+      "Improves performance",
+      "Avoids reliance on header rows"
+    ]
+  },
+  {
+    "id": 39,
+    "domain": "Apache Spark",
+    "question": "What does the `select` method do in Spark dataframes?",
+    "type": "radio",
+    "options": [
+      "Updates column values",
+      "Filters rows by a condition",
+      "Selects specific columns from the dataframe",
+      "Saves the dataframe to disk"
+    ],
+    "answer": ["Selects specific columns from the dataframe"]
+  },
+  {
+    "id": 40,
+    "domain": "Apache Spark",
+    "question": "Which syntax allows you to filter for only 'Mountain Bikes' and 'Road Bikes' in the Category column?",
+    "type": "radio",
+    "options": [
+      "df.filter('Category' IN ('Mountain Bikes', 'Road Bikes'))",
+      "df.where((df['Category']=='Mountain Bikes') | (df['Category']=='Road Bikes'))",
+      "df.select('Mountain Bikes', 'Road Bikes')",
+      "df.match(df['Category'])"
+    ],
+    "answer": ["df.where((df['Category']=='Mountain Bikes') | (df['Category']=='Road Bikes'))"]
+  },
+  {
+    "id": 41,
+    "domain": "Apache Spark",
+    "question": "Which file format is typically preferred when saving dataframes for downstream analysis?",
+    "type": "radio",
+    "options": ["CSV", "JSON", "Excel", "Parquet"],
+    "answer": ["Parquet"]
+  },
+  {
+    "id": 42,
+    "domain": "Apache Spark",
+    "question": "Why would you partition a dataframe when saving it?",
+    "type": "checkbox",
+    "options": [
+      "To improve query performance",
+      "To organize data into subfolders by field values",
+      "To reduce file size",
+      "To support distributed filtering and IO optimization"
+    ],
+    "answer": [
+      "To improve query performance",
+      "To organize data into subfolders by field values",
+      "To support distributed filtering and IO optimization"
+    ]
+  },
+  {
+    "id": 43,
+    "domain": "Apache Spark",
+    "question": "Which method should you use to save a Spark dataframe and overwrite existing data?",
+    "type": "radio",
+    "options": [
+      "df.export()",
+      "df.write.saveAsTable()",
+      "df.write.mode('overwrite')",
+      "df.to_csv()"
+    ],
+    "answer": ["df.write.mode('overwrite')"]
+  },
+  {
+    "id": 44,
+    "domain": "Apache Spark",
+    "question": "What happens when you load partitioned data from a folder path that includes a partition field?",
+    "type": "radio",
+    "options": [
+      "The partition column is excluded from the resulting dataframe",
+      "All columns are loaded as-is",
+      "Only the partition column is included",
+      "Spark throws an error if no header exists"
+    ],
+    "answer": ["The partition column is excluded from the resulting dataframe"]
+  },
+  {
+    "id": 45,
+    "domain": "Apache Spark",
+    "question": "Which PySpark functions are needed to define a custom schema?",
+    "type": "checkbox",
+    "options": [
+      "StructType",
+      "StructField",
+      "FloatType",
+      "IntType"
+    ],
+    "answer": [
+      "StructType",
+      "StructField",
+      "FloatType"
+    ]
+  }, {
+    "id": 46,
+    "domain": "Apache Spark",
+    "question": "What is the Spark catalog used for?",
+    "type": "radio",
+    "options": [
+      "Storing Power BI dashboards",
+      "Managing relational metadata like tables and views",
+      "Hosting Python packages",
+      "Tracking notebook history"
+    ],
+    "answer": ["Managing relational metadata like tables and views"]
+  },
+  {
+    "id": 47,
+    "domain": "Apache Spark",
+    "question": "Which methods can be used to register data from a dataframe into the Spark catalog?",
+    "type": "checkbox",
+    "options": [
+      "createOrReplaceTempView",
+      "saveAsTable",
+      "createDataFrame",
+      "createExternalTable"
+    ],
+    "answer": [
+      "createOrReplaceTempView",
+      "saveAsTable",
+      "createExternalTable"
+    ]
+  },
+  {
+    "id": 48,
+    "domain": "Apache Spark",
+    "question": "What is a key difference between a temporary view and a table in Spark?",
+    "type": "radio",
+    "options": [
+      "Tables are session-bound; views are permanent",
+      "Temporary views are stored in external storage",
+      "Temporary views are deleted at the end of the session",
+      "Tables cannot be queried using SQL"
+    ],
+    "answer": ["Temporary views are deleted at the end of the session"]
+  },
+  {
+    "id": 49,
+    "domain": "Apache Spark",
+    "question": "What is the preferred file format for creating tables in Microsoft Fabric with Spark?",
+    "type": "radio",
+    "options": ["CSV", "Parquet", "Delta", "Avro"],
+    "answer": ["Delta"]
+  },
+  {
+    "id": 50,
+    "domain": "Apache Spark",
+    "question": "What are characteristics of Delta Lake tables in Spark?",
+    "type": "checkbox",
+    "options": [
+      "They support transactions",
+      "They are stored in JSON format",
+      "They support versioning",
+      "They can be partitioned for performance"
+    ],
+    "answer": [
+      "They support transactions",
+      "They support versioning",
+      "They can be partitioned for performance"
+    ]
+  },
+  {
+    "id": 51,
+    "domain": "Apache Spark",
+    "question": "What happens when you delete a managed table from the Spark catalog?",
+    "type": "radio",
+    "options": [
+      "The underlying data remains intact",
+      "Only the metadata is deleted",
+      "The underlying data is deleted as well",
+      "The table becomes read-only"
+    ],
+    "answer": ["The underlying data is deleted as well"]
+  },
+  {
+    "id": 52,
+    "domain": "Apache Spark",
+    "question": "Which magic command is used in a notebook to execute pure SQL code in Spark?",
+    "type": "radio",
+    "options": [
+      "%%pyspark",
+      "%%sql",
+      "%%spark",
+      "%%run"
+    ],
+    "answer": ["%%sql"]
+  },
+  {
+    "id": 53,
+    "domain": "Apache Spark",
+    "question": "Which actions can you perform using the Spark SQL API?",
+    "type": "checkbox",
+    "options": [
+      "Query catalog tables with SQL",
+      "Use SQL expressions in PySpark code",
+      "Track ML model accuracy",
+      "Return query results as dataframes"
+    ],
+    "answer": [
+      "Query catalog tables with SQL",
+      "Use SQL expressions in PySpark code",
+      "Return query results as dataframes"
+    ]
+  },
+  {
+    "id": 54,
+    "domain": "Apache Spark",
+    "question": "Which method can be used in Microsoft Fabric notebooks to quickly visualize data from a dataframe?",
+    "type": "radio",
+    "options": [
+      "Switch the output view to 'Chart'",
+      "Use Power BI Embedded",
+      "Export to Excel",
+      "Install Tableau Desktop"
+    ],
+    "answer": ["Switch the output view to 'Chart'"]
+  },
+  {
+    "id": 55,
+    "domain": "Apache Spark",
+    "question": "Which Python library is commonly used as a foundation for many other charting libraries?",
+    "type": "radio",
+    "options": ["Matplotlib", "Seaborn", "Plotly", "Dash"],
+    "answer": ["Matplotlib"]
+  },
+  {
+    "id": 56,
+    "domain": "Apache Spark",
+    "question": "What method must be called on a Spark dataframe before it can be used with Matplotlib?",
+    "type": "radio",
+    "options": ["to_csv()", "toPandas()", "display()", "to_dict()"],
+    "answer": ["toPandas()"]
+  },
+  {
+    "id": 57,
+    "domain": "Apache Spark",
+    "question": "What are advantages of using built-in notebook charting features?",
+    "type": "checkbox",
+    "options": [
+      "Quickly summarize data visually",
+      "No need to write visualization code",
+      "Supports interactive drill-downs like Power BI",
+      "Customizable chart types and labels"
+    ],
+    "answer": [
+      "Quickly summarize data visually",
+      "No need to write visualization code",
+      "Customizable chart types and labels"
+    ]
+  },
+  {
+    "id": 58,
+    "domain": "Apache Spark",
+    "question": "Which of the following libraries can be used in Spark notebooks for customized data visualizations?",
+    "type": "checkbox",
+    "options": [
+      "Seaborn",
+      "Matplotlib",
+      "Bokeh",
+      "Pandas Profiling"
+    ],
+    "answer": [
+      "Seaborn",
+      "Matplotlib",
+      "Bokeh"
+    ]
+  },
+   {
+    "id": 59,
+    "domain": "Delta Lake",
+    "question": "What is Delta Lake in the context of Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "A Power BI visualization extension",
+      "An open-source storage layer for Spark with relational features",
+      "A replacement for Azure SQL Database",
+      "A data compression tool"
+    ],
+    "answer": ["An open-source storage layer for Spark with relational features"]
+  },
+  {
+    "id": 60,
+    "domain": "Delta Lake",
+    "question": "Which capabilities does Delta Lake provide to support SQL-based data manipulation?",
+    "type": "checkbox",
+    "options": [
+      "Transaction support",
+      "Schema enforcement",
+      "Data visualization",
+      "Batch and streaming compatibility"
+    ],
+    "answer": [
+      "Transaction support",
+      "Schema enforcement",
+      "Batch and streaming compatibility"
+    ]
+  },
+  {
+    "id": 61,
+    "domain": "Delta Lake",
+    "question": "What architectural role does Delta Lake play in Microsoft Fabric lakehouses?",
+    "type": "radio",
+    "options": [
+      "It compresses files before ingestion",
+      "It formats table outputs for dashboards",
+      "It provides relational database capabilities on top of data lake storage",
+      "It serves as a metadata index for Power BI reports"
+    ],
+    "answer": ["It provides relational database capabilities on top of data lake storage"]
+  },
+  {
+    "id": 62,
+    "domain": "Delta Lake",
+    "question": "What are advantages of using Delta Lake in a Spark environment?",
+    "type": "checkbox",
+    "options": [
+      "Allows SQL-like operations on data files",
+      "Supports both batch and streaming workloads",
+      "Eliminates the need for data governance",
+      "Provides schema validation and consistency"
+    ],
+    "answer": [
+      "Allows SQL-like operations on data files",
+      "Supports both batch and streaming workloads",
+      "Provides schema validation and consistency"
+    ]
+  },
+  {
+    "id": 63,
+    "domain": "Delta Lake",
+    "question": "Is it required to use Delta Lake APIs directly to interact with Fabric lakehouse tables?",
+    "type": "radio",
+    "options": [
+      "Yes, for every query and update",
+      "No, but understanding the Delta Lake architecture can be beneficial",
+      "Yes, unless using SQL analytics endpoint",
+      "No, because Fabric tables don’t use Delta Lake"
+    ],
+    "answer": ["No, but understanding the Delta Lake architecture can be beneficial"]
+  },
+  {
+    "id": 64,
+    "domain": "Delta Lake",
+    "question": "What icon is used in Microsoft Fabric to indicate a Delta table?",
+    "type": "radio",
+    "options": [
+      "Sigma (Σ)",
+      "Triangle (Δ)",
+      "Circle (Ο)",
+      "Arrow (→)"
+    ],
+    "answer": ["Triangle (Δ)"]
+  },
+  {
+    "id": 65,
+    "domain": "Delta Lake",
+    "question": "Which components are stored within a Delta table folder in a Fabric lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "CSV data files",
+      "Parquet data files",
+      "_delta_log folder",
+      "ML model binaries"
+    ],
+    "answer": [
+      "Parquet data files",
+      "_delta_log folder"
+    ]
+  },
+  {
+    "id": 66,
+    "domain": "Delta Lake",
+    "question": "Which operations are supported on Delta tables using Apache Spark?",
+    "type": "checkbox",
+    "options": [
+      "Create, Read, Update, Delete (CRUD)",
+      "Schema inference",
+      "SQL joins and filters",
+      "Training neural networks"
+    ],
+    "answer": [
+      "Create, Read, Update, Delete (CRUD)",
+      "SQL joins and filters"
+    ]
+  },
+  {
+    "id": 67,
+    "domain": "Delta Lake",
+    "question": "Which ACID transaction properties are supported by Delta Lake?",
+    "type": "checkbox",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ],
+    "answer": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ]
+  },
+  {
+    "id": 68,
+    "domain": "Delta Lake",
+    "question": "What is a key benefit of the Delta Lake transaction log (_delta_log)?",
+    "type": "radio",
+    "options": [
+      "Stores logs for SQL errors",
+      "Supports time travel and versioning of data",
+      "Compresses Parquet files",
+      "Connects to Power BI visuals"
+    ],
+    "answer": ["Supports time travel and versioning of data"]
+  },
+  {
+    "id": 69,
+    "domain": "Delta Lake",
+    "question": "How does Delta Lake support streaming data scenarios in Spark?",
+    "type": "radio",
+    "options": [
+      "Only by appending new records manually",
+      "By using Kafka connectors",
+      "By acting as both source and sink in structured streaming",
+      "Through custom REST APIs only"
+    ],
+    "answer": ["By acting as both source and sink in structured streaming"]
+  },
+  {
+    "id": 70,
+    "domain": "Delta Lake",
+    "question": "Which data format is used to store the underlying data of Delta tables?",
+    "type": "radio",
+    "options": [
+      "ORC",
+      "CSV",
+      "Avro",
+      "Parquet"
+    ],
+    "answer": ["Parquet"]
+  },
+  {
+    "id": 71,
+    "domain": "Delta Lake",
+    "question": "Which tools can you use to query Delta tables in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "SQL analytics endpoint",
+      "Apache Spark notebooks",
+      "Power Query Editor in Dataflows Gen2",
+      "SQL Server Management Studio"
+    ],
+    "answer": [
+      "SQL analytics endpoint",
+      "Apache Spark notebooks",
+      "Power Query Editor in Dataflows Gen2"
+    ]
+  },
+  {
+    "id": 72,
+    "domain": "Delta Lake",
+    "question": "What format are Delta tables stored in under the hood in Microsoft Fabric?",
+    "type": "radio",
+    "options": ["CSV", "Parquet", "JSON", "Avro"],
+    "answer": ["Parquet"]
+  },
+  {
+    "id": 73,
+    "domain": "Delta Lake",
+    "question": "Which of the following methods create a Delta table and register it in the Spark metastore?",
+    "type": "checkbox",
+    "options": [
+      "saveAsTable() with 'delta' format",
+      "DeltaTable.create() with DeltaTableBuilder API",
+      "Spark SQL CREATE TABLE statement",
+      "df.write.format('json').save()"
+    ],
+    "answer": [
+      "saveAsTable() with 'delta' format",
+      "DeltaTable.create() with DeltaTableBuilder API",
+      "Spark SQL CREATE TABLE statement"
+    ]
+  },
+  {
+    "id": 74,
+    "domain": "Delta Lake",
+    "question": "Which behavior is true for managed Delta tables in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "Their data is stored externally in Files storage",
+      "Deleting the table removes its data files as well",
+      "They require manual schema inference",
+      "They can’t be queried using SQL"
+    ],
+    "answer": ["Deleting the table removes its data files as well"]
+  },
+  {
+    "id": 75,
+    "domain": "Delta Lake",
+    "question": "What distinguishes an external Delta table from a managed Delta table?",
+    "type": "checkbox",
+    "options": [
+      "External tables reference data in a custom file location",
+      "Deleting an external table preserves the data files",
+      "External tables must use a SQL view",
+      "External tables can reside in the 'Files' area of the lakehouse"
+    ],
+    "answer": [
+      "External tables reference data in a custom file location",
+      "Deleting an external table preserves the data files",
+      "External tables can reside in the 'Files' area of the lakehouse"
+    ]
+  },
+  {
+    "id": 76,
+    "domain": "Delta Lake",
+    "question": "Which write mode appends rows to an existing Delta file path?",
+    "type": "radio",
+    "options": [
+      "overwrite",
+      "update",
+      "append",
+      "merge"
+    ],
+    "answer": ["append"]
+  },
+  {
+    "id": 77,
+    "domain": "Delta Lake",
+    "question": "Which tool allows you to define table structure and schema directly in code without loading data?",
+    "type": "radio",
+    "options": [
+      "Dataflow Gen2",
+      "DeltaTableBuilder API",
+      "Power BI",
+      "Notebook Charts"
+    ],
+    "answer": ["DeltaTableBuilder API"]
+  },
+  {
+    "id": 78,
+    "domain": "Delta Lake",
+    "question": "Which of the following are valid ways to create Delta tables using Spark SQL?",
+    "type": "checkbox",
+    "options": [
+      "CREATE TABLE USING DELTA",
+      "CREATE TABLE ... LOCATION ... USING DELTA",
+      "INSERT INTO DELTA TABLE",
+      "CREATE VIEW AS DELTA"
+    ],
+    "answer": [
+      "CREATE TABLE USING DELTA",
+      "CREATE TABLE ... LOCATION ... USING DELTA"
+    ]
+  },
+  {
+    "id": 79,
+    "domain": "Delta Lake",
+    "question": "What happens when you save a dataframe in Delta format to the 'Tables' folder in a lakehouse?",
+    "type": "radio",
+    "options": [
+      "Only files are created, no metadata is added",
+      "The table appears in the metastore via automatic table discovery",
+      "It creates an external table by default",
+      "The table is ignored unless manually registered"
+    ],
+    "answer": ["The table appears in the metastore via automatic table discovery"]
+  },
+  {
+    "id": 80,
+    "domain": "Delta Lake",
+    "question": "What is the purpose of the OptimizeWrite function in Delta Lake?",
+    "type": "radio",
+    "options": [
+      "To convert Parquet to CSV",
+      "To write smaller files faster",
+      "To reduce the number of small files by writing larger ones",
+      "To remove old versions of data"
+    ],
+    "answer": ["To reduce the number of small files by writing larger ones"]
+  },
+  {
+    "id": 81,
+    "domain": "Delta Lake",
+    "question": "Which of the following are benefits of running the OPTIMIZE command on a Delta table?",
+    "type": "checkbox",
+    "options": [
+      "Fewer larger files",
+      "Improved compression",
+      "Schema validation",
+      "Efficient distribution across Spark nodes"
+    ],
+    "answer": [
+      "Fewer larger files",
+      "Improved compression",
+      "Efficient distribution across Spark nodes"
+    ]
+  },
+  {
+    "id": 82,
+    "domain": "Delta Lake",
+    "question": "What is V-Order optimization primarily designed to improve?",
+    "type": "radio",
+    "options": [
+      "Write speed",
+      "Read performance and cost efficiency",
+      "Retention policies",
+      "Partition size balancing"
+    ],
+    "answer": ["Read performance and cost efficiency"]
+  },
+  {
+    "id": 83,
+    "domain": "Delta Lake",
+    "question": "Which compute engines benefit from V-Order optimization in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Power BI",
+      "SQL analytics endpoint",
+      "Apache Spark",
+      "Azure Data Factory"
+    ],
+    "answer": [
+      "Power BI",
+      "SQL analytics endpoint",
+      "Apache Spark"
+    ]
+  },
+  {
+    "id": 84,
+    "domain": "Delta Lake",
+    "question": "What does the VACUUM command do in Delta Lake?",
+    "type": "radio",
+    "options": [
+      "Deletes transaction logs",
+      "Removes small files during a write",
+      "Deletes unreferenced Parquet files older than a retention period",
+      "Merges partitions into one file"
+    ],
+    "answer": ["Deletes unreferenced Parquet files older than a retention period"]
+  },
+  {
+    "id": 85,
+    "domain": "Delta Lake",
+    "question": "What is the default retention period for VACUUM in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "1 day",
+      "3 days",
+      "7 days (168 hours)",
+      "10 days"
+    ],
+    "answer": ["7 days (168 hours)"]
+  },
+  {
+    "id": 86,
+    "domain": "Delta Lake",
+    "question": "What are good use cases for partitioning Delta tables?",
+    "type": "checkbox",
+    "options": [
+      "Large datasets with a few distinct partition values",
+      "Frequently changing schema",
+      "High-volume historical data (e.g., by year or month)",
+      "Tables with low cardinality partition columns"
+    ],
+    "answer": [
+      "Large datasets with a few distinct partition values",
+      "High-volume historical data (e.g., by year or month)",
+      "Tables with low cardinality partition columns"
+    ]
+  },
+  {
+    "id": 87,
+    "domain": "Delta Lake",
+    "question": "What potential issue can partitioning small datasets cause?",
+    "type": "radio",
+    "options": [
+      "Faster reads across all queries",
+      "Improved automatic schema inference",
+      "The small files problem",
+      "Excessive memory usage during writes"
+    ],
+    "answer": ["The small files problem"]
+  },
+  {
+    "id": 88,
+    "domain": "Delta Lake",
+    "question": "Which of the following are valid ways to apply partitioning to Delta tables?",
+    "type": "checkbox",
+    "options": [
+      "Using the partitionBy method in PySpark",
+      "Using the PARTITIONED BY clause in SQL",
+      "Using the VACUUM command with a column parameter",
+      "Using the DeltaTableBuilder setPartition() method"
+    ],
+    "answer": [
+      "Using the partitionBy method in PySpark",
+      "Using the PARTITIONED BY clause in SQL"
+    ]
+  },
+  {
+    "id": 89,
+    "domain": "Delta Lake",
+    "question": "Which method is most commonly used to work with Delta tables in Spark?",
+    "type": "radio",
+    "options": [
+      "Power BI visuals",
+      "DeltaTableBuilder API",
+      "Spark SQL",
+      "Azure Synapse Notebooks"
+    ],
+    "answer": ["Spark SQL"]
+  },
+  {
+    "id": 90,
+    "domain": "Delta Lake",
+    "question": "Which of the following actions can be performed using the Delta Lake API?",
+    "type": "checkbox",
+    "options": [
+      "Update values in Delta files",
+      "Query external CSV tables",
+      "Create a DeltaTable instance from a file path",
+      "Apply bulk delete operations"
+    ],
+    "answer": [
+      "Update values in Delta files",
+      "Create a DeltaTable instance from a file path",
+      "Apply bulk delete operations"
+    ]
+  },
+  {
+    "id": 91,
+    "domain": "Delta Lake",
+    "question": "Which PySpark function is used to reduce the price of products in a Delta table using the Delta API?",
+    "type": "radio",
+    "options": [
+      "update()",
+      "transform()",
+      "map()",
+      "setPrice()"
+    ],
+    "answer": ["update()"]
+  },
+  {
+    "id": 92,
+    "domain": "Delta Lake",
+    "question": "What command allows you to view the transaction history of a Delta table?",
+    "type": "radio",
+    "options": [
+      "SHOW TRANSACTIONS",
+      "DESCRIBE HISTORY",
+      "SELECT LOGS",
+      "LIST VERSIONS"
+    ],
+    "answer": ["DESCRIBE HISTORY"]
+  },
+  {
+    "id": 93,
+    "domain": "Delta Lake",
+    "question": "Which of the following statements about Delta table time travel is correct?",
+    "type": "checkbox",
+    "options": [
+      "You can retrieve past data using version numbers",
+      "You can specify a timestamp to read data from a point in time",
+      "You must enable time travel in the metastore settings",
+      "Time travel works only on managed tables"
+    ],
+    "answer": [
+      "You can retrieve past data using version numbers",
+      "You can specify a timestamp to read data from a point in time"
+    ]
+  },
+  {
+    "id": 94,
+    "domain": "Delta Lake",
+    "question": "How do you specify a time-based retrieval of data from a Delta path?",
+    "type": "radio",
+    "options": [
+      "spark.read.option('deltaTime')",
+      "spark.read.option('dateTimeAsOf')",
+      "spark.read.option('timestampAsOf')",
+      "spark.read.option('historyAt')"
+    ],
+    "answer": ["spark.read.option('timestampAsOf')"]
+  },
+  {
+    "id": 95,
+    "domain": "Delta Lake",
+    "question": "When querying an external Delta table’s history, what must you specify?",
+    "type": "radio",
+    "options": [
+      "The schema name",
+      "The full metastore path",
+      "The file path location",
+      "The table ID"
+    ],
+    "answer": ["The file path location"]
+  },
+  {
+    "id": 96,
+    "domain": "Delta Lake",
+    "question": "What API in Spark enables real-time processing of streaming data?",
+    "type": "radio",
+    "options": [
+      "Kafka Stream API",
+      "Structured Streaming",
+      "Delta Query API",
+      "SQL Streaming"
+    ],
+    "answer": ["Structured Streaming"]
+  },
+  {
+    "id": 97,
+    "domain": "Delta Lake",
+    "question": "Which of the following sources are supported by Spark Structured Streaming?",
+    "type": "checkbox",
+    "options": [
+      "Azure Event Hubs",
+      "Kafka",
+      "File system locations",
+      "Power BI"
+    ],
+    "answer": [
+      "Azure Event Hubs",
+      "Kafka",
+      "File system locations"
+    ]
+  },
+  {
+    "id": 98,
+    "domain": "Delta Lake",
+    "question": "When using a Delta table as a streaming source, which option helps avoid errors caused by update or delete operations?",
+    "type": "radio",
+    "options": [
+      "triggerOnce",
+      "ignoreChanges",
+      "appendOnly",
+      "autoMerge"
+    ],
+    "answer": ["ignoreChanges"]
+  },
+  {
+    "id": 99,
+    "domain": "Delta Lake",
+    "question": "Which property confirms whether a dataframe is being used as a streaming DataFrame?",
+    "type": "radio",
+    "options": [
+      "df.isRealtime",
+      "df.isLive",
+      "df.streaming",
+      "df.isStreaming"
+    ],
+    "answer": ["df.isStreaming"]
+  },
+  {
+    "id": 100,
+    "domain": "Delta Lake",
+    "question": "Which transformations were applied in the example to the streaming data before writing to the output Delta table?",
+    "type": "checkbox",
+    "options": [
+      "Filtered rows with NULL prices",
+      "Added a column to identify bikes",
+      "Added a column to calculate total price",
+      "Repartitioned the stream"
+    ],
+    "answer": [
+      "Filtered rows with NULL prices",
+      "Added a column to identify bikes",
+      "Added a column to calculate total price"
+    ]
+  },
+  {
+    "id": 101,
+    "domain": "Delta Lake",
+    "question": "What does the checkpointLocation option do when writing streaming data to a Delta table?",
+    "type": "radio",
+    "options": [
+      "Disables time travel",
+      "Limits the rate of streaming",
+      "Tracks the state of the stream for recovery",
+      "Automatically deletes old files"
+    ],
+    "answer": ["Tracks the state of the stream for recovery"]
+  },
+  {
+    "id": 102,
+    "domain": "Delta Lake",
+    "question": "Which SQL command was used to verify the contents of the output Delta table after streaming?",
+    "type": "radio",
+    "options": [
+      "SELECT TOP 10 FROM orders_processed",
+      "SHOW STREAM orders_processed",
+      "SELECT * FROM orders_processed ORDER BY OrderID",
+      "DESCRIBE TABLE orders_processed"
+    ],
+    "answer": ["SELECT * FROM orders_processed ORDER BY OrderID"]
+  },
+  {
+    "id": 103,
+    "domain": "Delta Lake",
+    "question": "How do you stop a streaming query in PySpark to avoid excessive resource usage?",
+    "type": "radio",
+    "options": [
+      "stream_df.pause()",
+      "deltastream.end()",
+      "stream_df.stop()",
+      "deltastream.stop()"
+    ],
+    "answer": ["deltastream.stop()"]
+  },
+  {
+    "id": 104,
+    "domain": "Medallion",
+    "question": "What is the purpose of the medallion architecture in a Fabric lakehouse?",
+    "type": "radio",
+    "options": [
+      "To enhance security for Power BI reports",
+      "To define backup and restore operations",
+      "To organize, refine, and curate data using a layered structure",
+      "To automate model deployment with MLFlow"
+    ],
+    "answer": ["To organize, refine, and curate data using a layered structure"]
+  },
+  {
+    "id": 105,
+    "domain": "Medallion",
+    "question": "Which of the following are core layers in a medallion architecture?",
+    "type": "checkbox",
+    "options": [
+      "Platinum",
+      "Bronze",
+      "Silver",
+      "Gold"
+    ],
+    "answer": [
+      "Bronze",
+      "Silver",
+      "Gold"
+    ]
+  },
+  {
+    "id": 106,
+    "domain": "Medallion",
+    "question": "Which Microsoft Fabric component is most commonly associated with implementing a medallion architecture?",
+    "type": "radio",
+    "options": [
+      "Power Automate",
+      "Lakehouse",
+      "Power BI Desktop",
+      "Data Gateway"
+    ],
+    "answer": ["Lakehouse"]
+  },
+  {
+    "id": 107,
+    "domain": "Medallion",
+    "question": "What foundational knowledge is recommended before starting to build a medallion architecture in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Understanding of Power BI",
+      "Familiarity with Fabric lakehouses",
+      "Basic SQL knowledge",
+      "Experience with Azure AD B2C"
+    ],
+    "answer": [
+      "Understanding of Power BI",
+      "Familiarity with Fabric lakehouses",
+      "Basic SQL knowledge"
+    ]
+  },
+  {
+    "id": 108,
+    "domain": "Medallion",
+    "question": "Which of the following best describes the medallion architecture's role in data analytics?",
+    "type": "radio",
+    "options": [
+      "It defines machine learning training parameters",
+      "It provides structure and efficiency for organizing lakehouse data",
+      "It automates ETL pipeline deployments",
+      "It manages source control for SQL notebooks"
+    ],
+    "answer": ["It provides structure and efficiency for organizing lakehouse data"]
+  },
+  {
+    "id": 109,
+    "domain": "Medallion",
+    "question": "What is the primary purpose of the medallion architecture in a lakehouse?",
+    "type": "radio",
+    "options": [
+      "To archive legacy datasets",
+      "To improve data quality across multiple layers",
+      "To replace data lakes with data warehouses",
+      "To export data for external users"
+    ],
+    "answer": ["To improve data quality across multiple layers"]
+  },
+  {
+    "id": 110,
+    "domain": "Medallion",
+    "question": "Which layers are part of the traditional medallion architecture?",
+    "type": "checkbox",
+    "options": [
+      "Raw",
+      "Bronze",
+      "Silver",
+      "Gold"
+    ],
+    "answer": [
+      "Bronze",
+      "Silver",
+      "Gold"
+    ]
+  },
+  {
+    "id": 111,
+    "domain": "Medallion",
+    "question": "What is the role of the silver layer in the medallion architecture?",
+    "type": "radio",
+    "options": [
+      "It stores enriched and aggregated data for business use",
+      "It validates, cleans, and merges raw data into a central format",
+      "It holds archived data for long-term storage",
+      "It is used only by data scientists"
+    ],
+    "answer": ["It validates, cleans, and merges raw data into a central format"]
+  },
+  {
+    "id": 112,
+    "domain": "Medallion",
+    "question": "Which of the following activities are typically performed in the gold layer?",
+    "type": "checkbox",
+    "options": [
+      "Refining data for analytics needs",
+      "Aggregating to daily or hourly levels",
+      "Removing duplicates from raw files",
+      "Enriching data with external sources"
+    ],
+    "answer": [
+      "Refining data for analytics needs",
+      "Aggregating to daily or hourly levels",
+      "Enriching data with external sources"
+    ]
+  },
+  {
+    "id": 113,
+    "domain": "Medallion",
+    "question": "Which Microsoft Fabric tools are typically used for data transformation?",
+    "type": "checkbox",
+    "options": [
+      "Notebooks",
+      "Dataflows Gen2",
+      "Pipelines",
+      "Power BI Desktop"
+    ],
+    "answer": [
+      "Notebooks",
+      "Dataflows Gen2"
+    ]
+  },
+  {
+    "id": 114,
+    "domain": "Medallion",
+    "question": "Which Fabric component is primarily used for data orchestration?",
+    "type": "radio",
+    "options": [
+      "Dataflows",
+      "Semantic models",
+      "Pipelines",
+      "SQL Analytics Endpoint"
+    ],
+    "answer": ["Pipelines"]
+  },
+  {
+    "id": 115,
+    "domain": "Medallion",
+    "question": "What are key considerations when deciding how to move data across medallion layers?",
+    "type": "checkbox",
+    "options": [
+      "Data volume",
+      "Complexity of transformations",
+      "Frequency of updates",
+      "Size of Power BI visuals"
+    ],
+    "answer": [
+      "Data volume",
+      "Complexity of transformations",
+      "Frequency of updates"
+    ]
+  },
+  {
+    "id": 116,
+    "domain": "Medallion",
+    "question": "Which statement best describes the flexibility of medallion architecture?",
+    "type": "radio",
+    "options": [
+      "It is a rigid three-layer architecture not suited for custom solutions",
+      "It can be customized with extra layers based on business needs",
+      "It is only compatible with Microsoft SQL Server",
+      "It requires Spark to function"
+    ],
+    "answer": ["It can be customized with extra layers based on business needs"]
+  },
+  {
+    "id": 125,
+    "domain": "Medallion",
+    "question": "What does the SQL analytics endpoint in Microsoft Fabric allow you to do?",
+    "type": "checkbox",
+    "options": [
+      "Write queries over Delta tables",
+      "Modify data in the lakehouse",
+      "Generate views and apply SQL security",
+      "Connect with external tools and applications"
+    ],
+    "answer": [
+      "Write queries over Delta tables",
+      "Generate views and apply SQL security",
+      "Connect with external tools and applications"
+    ]
+  },
+  {
+    "id": 126,
+    "domain": "Medallion",
+    "question": "Which mode allows Power BI semantic models to directly access Delta tables in a lakehouse?",
+    "type": "radio",
+    "options": [
+      "Import Mode",
+      "Direct Query Mode",
+      "Live Connection",
+      "Direct Lake Mode"
+    ],
+    "answer": ["Direct Lake Mode"]
+  },
+  {
+    "id": 127,
+    "domain": "Medallion",
+    "question": "Which statement best describes a Power BI semantic model?",
+    "type": "radio",
+    "options": [
+      "A scripting interface for SQL queries in Fabric",
+      "A star schema model using business-friendly terms",
+      "A feature that monitors data pipeline health",
+      "A storage container for raw data files"
+    ],
+    "answer": ["A star schema model using business-friendly terms"]
+  },
+  {
+    "id": 128,
+    "domain": "Medallion",
+    "question": "How can you tailor your gold layer for different business needs?",
+    "type": "checkbox",
+    "options": [
+      "Create custom gold layers for each team (e.g., finance, sales, data science)",
+      "Use gold layers to generate data in required formats for external systems",
+      "Apply row-level security to the bronze layer",
+      "Model each gold layer independently with relevant relationships and measures"
+    ],
+    "answer": [
+      "Create custom gold layers for each team (e.g., finance, sales, data science)",
+      "Use gold layers to generate data in required formats for external systems",
+      "Model each gold layer independently with relevant relationships and measures"
+    ]
+  },
+  {
+    "id": 129,
+    "domain": "Medallion",
+    "question": "Which of the following tools allow modifying data in a Fabric lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "Dataflows",
+      "SQL analytics endpoint",
+      "Notebooks",
+      "Pipelines"
+    ],
+    "answer": [
+      "Dataflows",
+      "Notebooks",
+      "Pipelines"
+    ]
+  },
+  {
+    "id": 130,
+    "domain": "Medallion",
+    "question": "Which types of permissions can be used to secure your lakehouse in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Row-level permissions",
+      "Workspace permissions",
+      "Item-level permissions",
+      "File system ACLs"
+    ],
+    "answer": [
+      "Workspace permissions",
+      "Item-level permissions"
+    ]
+  },
+  {
+    "id": 131,
+    "domain": "Medallion",
+    "question": "What is a recommended strategy for enhancing both security and capacity management in a lakehouse?",
+    "type": "radio",
+    "options": [
+      "Enabling public read-only endpoints",
+      "Storing all layers in a single workspace",
+      "Storing lakehouse layers in separate workspaces",
+      "Enabling Git integration on the bronze layer only"
+    ],
+    "answer": ["Storing lakehouse layers in separate workspaces"]
+  },
+  {
+    "id": 132,
+    "domain": "Medallion",
+    "question": "What is the recommended access level for the bronze and gold layers of a lakehouse?",
+    "type": "radio",
+    "options": [
+      "Full read/write",
+      "Editor only",
+      "Read-only access",
+      "Admin access"
+    ],
+    "answer": ["Read-only access"]
+  },
+  {
+    "id": 133,
+    "domain": "Medallion",
+    "question": "Which of the following are important CI/CD considerations for a Fabric lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "Data quality checks",
+      "Automated deployments",
+      "Manual backups",
+      "Version control"
+    ],
+    "answer": [
+      "Data quality checks",
+      "Automated deployments",
+      "Version control"
+    ]
+  },
+  {
+    "id": 134,
+    "domain": "Medallion",
+    "question": "Why is CI/CD especially important for the gold layer in a medallion architecture?",
+    "type": "radio",
+    "options": [
+      "It handles the largest data volumes",
+      "It is the only layer accessed by administrators",
+      "It ensures validated data is consistently available for downstream use",
+      "It stores external source configurations"
+    ],
+    "answer": ["It ensures validated data is consistently available for downstream use"]
+  },
+  {
+    "id": 135,
+    "domain": "Medallion",
+    "question": "Which tool in Microsoft Fabric enables version control and collaboration on lakehouse items?",
+    "type": "radio",
+    "options": [
+      "Azure DevOps Boards",
+      "Git integration",
+      "Power BI datasets",
+      "Fabric Monitor"
+    ],
+    "answer": ["Git integration"]
+  }
+]
