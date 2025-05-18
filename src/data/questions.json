@@ -1759,5 +1759,3298 @@
       "Fabric Monitor"
     ],
     "answer": ["Git integration"]
+  },
+   {
+    "id": 136,
+    "domain": "Data Movement",
+    "question": "What is the primary purpose of a data pipeline in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To encrypt files in a data lake",
+      "To manage semantic models for Power BI",
+      "To orchestrate processes that move and transform data between sources and destinations",
+      "To monitor API request volume"
+    ],
+    "answer": ["To orchestrate processes that move and transform data between sources and destinations"]
+  },
+  {
+    "id": 137,
+    "domain": "Data Movement",
+    "question": "Which type of process is most commonly automated using data pipelines?",
+    "type": "radio",
+    "options": [
+      "Continuous integration and deployment",
+      "Extract, Transform, Load (ETL)",
+      "Machine learning training",
+      "Report publishing"
+    ],
+    "answer": ["Extract, Transform, Load (ETL)"]
+  },
+  {
+    "id": 138,
+    "domain": "Data Movement",
+    "question": "Where do data pipelines in Fabric commonly move data to?",
+    "type": "checkbox",
+    "options": [
+      "Lakehouse",
+      "SQL Database",
+      "Power Apps",
+      "Data Warehouse"
+    ],
+    "answer": [
+      "Lakehouse",
+      "SQL Database",
+      "Data Warehouse"
+    ]
+  },
+  {
+    "id": 139,
+    "domain": "Data Movement",
+    "question": "If you're familiar with Azure Data Factory, what can you expect from Fabric data pipelines?",
+    "type": "radio",
+    "options": [
+      "A completely different architecture",
+      "A simplified scripting-only interface",
+      "A similar architecture with connected activities and control flow logic",
+      "Limited integration with external sources"
+    ],
+    "answer": ["A similar architecture with connected activities and control flow logic"]
+  },
+  {
+    "id": 140,
+    "domain": "Data Movement",
+    "question": "Which of the following are valid ways to run a data pipeline in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Interactively through the UI",
+      "Scheduled automatic runs",
+      "Triggered by row-level security",
+      "Using a Fabric mobile app"
+    ],
+    "answer": [
+      "Interactively through the UI",
+      "Scheduled automatic runs"
+    ]
+  },
+   {
+    "id": 141,
+    "domain": "Data Movement",
+    "question": "What is the primary purpose of control flow activities in a Microsoft Fabric pipeline?",
+    "type": "radio",
+    "options": [
+      "To perform advanced AI tasks",
+      "To apply visual formatting to reports",
+      "To implement loops, branching, and manage parameters or variables",
+      "To load data into Power BI reports"
+    ],
+    "answer": ["To implement loops, branching, and manage parameters or variables"]
+  },
+  {
+    "id": 142,
+    "domain": "Data Movement",
+    "question": "Which of the following are considered data transformation activities in a pipeline?",
+    "type": "checkbox",
+    "options": [
+      "Copy Data activity",
+      "Notebook activity",
+      "If Condition activity",
+      "Stored Procedure activity"
+    ],
+    "answer": [
+      "Copy Data activity",
+      "Notebook activity",
+      "Stored Procedure activity"
+    ]
+  },
+  {
+    "id": 143,
+    "domain": "Data Movement",
+    "question": "How can you reuse a pipeline to handle different inputs, such as a dynamic folder name?",
+    "type": "radio",
+    "options": [
+      "Use conditional branching",
+      "Enable auto-run mode",
+      "Define pipeline parameters",
+      "Apply row-level security"
+    ],
+    "answer": ["Define pipeline parameters"]
+  },
+  {
+    "id": 144,
+    "domain": "Data Movement",
+    "question": "What does a unique run ID allow you to do in a Fabric pipeline run?",
+    "type": "radio",
+    "options": [
+      "Identify the source data set",
+      "View ownership settings",
+      "Track execution details and settings",
+      "Enable alerts for failed visuals"
+    ],
+    "answer": ["Track execution details and settings"]
+  },
+  {
+    "id": 145,
+    "domain": "Data Movement",
+    "question": "Which of the following destinations can you write to from a data transformation activity in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Lakehouse",
+      "Data Warehouse",
+      "SQL Database",
+      "Power BI Desktop"
+    ],
+    "answer": [
+      "Lakehouse",
+      "Data Warehouse",
+      "SQL Database"
+    ]
+  },
+  {
+    "id": 146,
+    "domain": "Data Movement",
+    "question": "What is the primary use case for the Copy Data activity in a pipeline?",
+    "type": "radio",
+    "options": [
+      "Running machine learning models",
+      "Creating star schemas for Power BI",
+      "Ingesting data from a source to a destination without transformation",
+      "Generating Power BI reports"
+    ],
+    "answer": ["Ingesting data from a source to a destination without transformation"]
+  },
+  {
+    "id": 147,
+    "domain": "Data Movement",
+    "question": "Which activities can be combined with the Copy Data activity for a repeatable data ingestion pattern?",
+    "type": "checkbox",
+    "options": [
+      "Delete data activity",
+      "Notebook activity",
+      "Stored procedure activity",
+      "Data wrangling activity"
+    ],
+    "answer": [
+      "Delete data activity",
+      "Notebook activity"
+    ]
+  },
+  {
+    "id": 148,
+    "domain": "Data Movement",
+    "question": "Which destinations are supported for the Copy Data activity in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Lakehouse",
+      "Data Warehouse",
+      "SQL Database",
+      "Power BI dataset"
+    ],
+    "answer": [
+      "Lakehouse",
+      "Data Warehouse",
+      "SQL Database"
+    ]
+  },
+  {
+    "id": 149,
+    "domain": "Data Movement",
+    "question": "When should you consider using a Dataflow (Gen2) instead of a Copy Data activity?",
+    "type": "radio",
+    "options": [
+      "When you want to copy data from Azure Blob Storage to OneDrive",
+      "When you need a scheduled run without any transformation",
+      "When transformations or merging data from multiple sources are required",
+      "When you need to visualize data in Power BI"
+    ],
+    "answer": ["When transformations or merging data from multiple sources are required"]
+  },
+  {
+    "id": 150,
+    "domain": "Data Movement",
+    "question": "What interface helps configure a Copy Data activity in Fabric pipelines?",
+    "type": "radio",
+    "options": [
+      "Notebook interface",
+      "Power BI model view",
+      "Graphical tool in the pipeline canvas",
+      "Azure CLI integration"
+    ],
+    "answer": ["Graphical tool in the pipeline canvas"]
+  },
+  {
+    "id": 151,
+    "domain": "Data Movement",
+    "question": "What is the benefit of using pipeline templates in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "They are required for all pipelines to run",
+      "They prevent the use of parameters",
+      "They provide predefined solutions for common pipeline scenarios",
+      "They limit customization to reduce errors"
+    ],
+    "answer": ["They provide predefined solutions for common pipeline scenarios"]
+  },
+  {
+    "id": 152,
+    "domain": "Data Movement",
+    "question": "How can you start creating a pipeline using a template?",
+    "type": "radio",
+    "options": [
+      "By cloning an existing notebook",
+      "By selecting 'Choose a task to start' in the pipeline canvas",
+      "By importing an Excel file",
+      "By enabling the preview features in Fabric"
+    ],
+    "answer": ["By selecting 'Choose a task to start' in the pipeline canvas"]
+  },
+  {
+    "id": 153,
+    "domain": "Data Movement",
+    "question": "After selecting a pipeline template, what can you do in the pipeline canvas?",
+    "type": "radio",
+    "options": [
+      "Only run the template as-is",
+      "Customize the pipeline activities to meet specific needs",
+      "Switch it to Power BI mode",
+      "Convert it to a semantic model"
+    ],
+    "answer": ["Customize the pipeline activities to meet specific needs"]
+  },
+   {
+    "id": 154,
+    "domain": "Data Movement",
+    "question": "What does the Validate option do before running a pipeline in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "Checks user permissions for each activity",
+      "Checks if the configuration of the pipeline is valid",
+      "Schedules the pipeline for deployment",
+      "Generates a Power BI report"
+    ],
+    "answer": ["Checks if the configuration of the pipeline is valid"]
+  },
+  {
+    "id": 155,
+    "domain": "Data Movement",
+    "question": "Which of the following are valid ways to initiate a pipeline run in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Interactively from the pipeline canvas",
+      "Automatically based on a defined schedule",
+      "Through a semantic model refresh",
+      "Triggered from a SQL query"
+    ],
+    "answer": [
+      "Interactively from the pipeline canvas",
+      "Automatically based on a defined schedule"
+    ]
+  },
+  {
+    "id": 156,
+    "domain": "Data Movement",
+    "question": "What feature allows you to analyze the duration of each activity in a pipeline run?",
+    "type": "radio",
+    "options": [
+      "Timeline view",
+      "Performance chart",
+      "Gantt chart",
+      "Activity grid"
+    ],
+    "answer": ["Gantt chart"]
+  },
+  {
+    "id": 157,
+    "domain": "Data Movement",
+    "question": "Where can you access the full run history of a pipeline?",
+    "type": "radio",
+    "options": [
+      "Only in Power BI",
+      "Only in the SQL analytics endpoint",
+      "From the pipeline canvas or workspace page",
+      "In the Git integration panel"
+    ],
+    "answer": ["From the pipeline canvas or workspace page"]
+  },{
+    "id": 158,
+    "domain": "Data Warehouses",
+    "question": "What is the primary role of a data warehouse in enterprise business intelligence (BI)?",
+    "type": "radio",
+    "options": [
+      "To collect unstructured data for machine learning",
+      "To normalize data across multiple systems",
+      "To centralize and organize data into a unified view for analysis and reporting",
+      "To visualize data using custom Python scripts"
+    ],
+    "answer": ["To centralize and organize data into a unified view for analysis and reporting"]
+  },
+  {
+    "id": 159,
+    "domain": "Data Warehouses",
+    "question": "Which of the following describes the standard design for a relational data warehouse?",
+    "type": "radio",
+    "options": [
+      "Fully normalized schema",
+      "Star or snowflake schema with denormalized, multidimensional data",
+      "Graph-based schema with multiple joins",
+      "Time-series schema optimized for IoT data"
+    ],
+    "answer": ["Star or snowflake schema with denormalized, multidimensional data"]
+  },
+  {
+    "id": 160,
+    "domain": "Data Warehouses",
+    "question": "What makes Fabric’s data warehouse unique compared to traditional data warehouses?",
+    "type": "checkbox",
+    "options": [
+      "It is built on the lakehouse using Delta format",
+      "It requires Spark knowledge to run queries",
+      "It supports full SQL semantics",
+      "It is only usable by data engineers"
+    ],
+    "answer": [
+      "It is built on the lakehouse using Delta format",
+      "It supports full SQL semantics"
+    ]
+  },
+  {
+    "id": 161,
+    "domain": "Data Warehouses",
+    "question": "Who is Fabric’s data warehouse experience designed for?",
+    "type": "checkbox",
+    "options": [
+      "Only Power BI report developers",
+      "Data engineers",
+      "Data analysts",
+      "Data scientists"
+    ],
+    "answer": [
+      "Data engineers",
+      "Data analysts",
+      "Data scientists"
+    ]
+  },
+  {
+    "id": 162,
+    "domain": "Data Warehouses",
+    "question": "Which of the following is NOT a standard phase in building a modern data warehouse?",
+    "type": "radio",
+    "options": [
+      "Data ingestion",
+      "Data gaming",
+      "Data processing",
+      "Data analysis and delivery"
+    ],
+    "answer": ["Data gaming"]
+  },
+  {
+    "id": 163,
+    "domain": "Data Warehouses",
+    "question": "What does a fact table typically contain in a data warehouse?",
+    "type": "radio",
+    "options": [
+      "Descriptive attributes used to filter reports",
+      "Business-specific keys like product codes",
+      "Numerical data for analysis such as sales or revenue",
+      "Metadata for schema generation"
+    ],
+    "answer": ["Numerical data for analysis such as sales or revenue"]
+  },
+  {
+    "id": 164,
+    "domain": "Data Warehouses",
+    "question": "Which of the following best describes a surrogate key in a dimension table?",
+    "type": "radio",
+    "options": [
+      "A key used to encrypt sensitive data",
+      "A unique identifier generated by the database system",
+      "A key that comes from the source system",
+      "A key shared across multiple dimension tables"
+    ],
+    "answer": ["A unique identifier generated by the database system"]
+  },
+  {
+    "id": 165,
+    "domain": "Data Warehouses",
+    "question": "Why are slowly changing dimensions important in a data warehouse?",
+    "type": "radio",
+    "options": [
+      "They improve dashboard visualizations in Power BI",
+      "They allow for capturing and analyzing changes to dimension attributes over time",
+      "They reduce duplicate rows in transactional systems",
+      "They eliminate the need for surrogate keys"
+    ],
+    "answer": ["They allow for capturing and analyzing changes to dimension attributes over time"]
+  },
+  {
+    "id": 166,
+    "domain": "Data Warehouses",
+    "question": "What is one of the main reasons to use a star schema in a data warehouse?",
+    "type": "radio",
+    "options": [
+      "To normalize all dimension data",
+      "To reduce storage requirements",
+      "To reduce joins and simplify queries",
+      "To store real-time streaming data"
+    ],
+    "answer": ["To reduce joins and simplify queries"]
+  },
+  {
+    "id": 167,
+    "domain": "Data Warehouses",
+    "question": "When is a snowflake schema more appropriate than a star schema?",
+    "type": "radio",
+    "options": [
+      "When data is being streamed in real-time",
+      "When dimensional data has many levels or shared hierarchies",
+      "When using only fact tables",
+      "When building Power BI dashboards"
+    ],
+    "answer": ["When dimensional data has many levels or shared hierarchies"]
+  },
+   {
+    "id": 168,
+    "domain": "Data Warehouses",
+    "question": "What enables querying across both the Lakehouse and data warehouse in Fabric without duplicating data?",
+    "type": "radio",
+    "options": [
+      "Semantic Models",
+      "Power BI Direct Lake",
+      "Cross-database querying",
+      "Dataflows Gen2"
+    ],
+    "answer": ["Cross-database querying"]
+  },
+  {
+    "id": 169,
+    "domain": "Data Warehouses",
+    "question": "Which SQL command allows you to load external data into a Fabric data warehouse table?",
+    "type": "radio",
+    "options": [
+      "INSERT INTO ... VALUES",
+      "LOAD DATA FROM",
+      "COPY INTO",
+      "IMPORT DATA"
+    ],
+    "answer": ["COPY INTO"]
+  },
+  {
+    "id": 170,
+    "domain": "Data Warehouses",
+    "question": "What is a key advantage of using table clones in Fabric data warehouses?",
+    "type": "checkbox",
+    "options": [
+      "They replicate data in real time across regions",
+      "They reduce storage costs by referencing existing data",
+      "They allow for easy rollback and historical analysis",
+      "They duplicate underlying parquet files for backup"
+    ],
+    "answer": [
+      "They reduce storage costs by referencing existing data",
+      "They allow for easy rollback and historical analysis"
+    ]
+  },
+  {
+    "id": 171,
+    "domain": "Data Warehouses",
+    "question": "Which of the following correctly describes the typical loading process into a Fabric data warehouse?",
+    "type": "radio",
+    "options": [
+      "Load directly into fact tables using Power BI",
+      "Copy all data into gold tables before modeling",
+      "Use staging tables, then load dimension tables followed by fact tables",
+      "Use DAX measures to populate tables directly"
+    ],
+    "answer": ["Use staging tables, then load dimension tables followed by fact tables"]
+  },
+  {
+    "id": 172,
+    "domain": "Data Warehouses",
+    "question": "Which tools can you use to ingest data into a Fabric data warehouse?",
+    "type": "checkbox",
+    "options": [
+      "Pipelines",
+      "Notebooks",
+      "Power BI Desktop",
+      "Dataflows"
+    ],
+    "answer": [
+      "Pipelines",
+      "Notebooks",
+      "Dataflows"
+    ]
+  },
+  {
+    "id": 173,
+    "domain": "Data Warehouses",
+    "question": "What is the purpose of staging tables in a data warehouse?",
+    "type": "radio",
+    "options": [
+      "To store archived backups of production tables",
+      "To run long-term historical queries",
+      "To cleanse, validate, and transform data before final load",
+      "To store Power BI visuals"
+    ],
+    "answer": ["To cleanse, validate, and transform data before final load"]
+  },
+  {
+    "id": 174,
+    "domain": "Data Warehouses",
+    "question": "What is a key feature of the SQL query editor in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Syntax highlighting",
+      "Intellisense and code completion",
+      "Auto-publish to Power BI",
+      "Client-side parsing and validation"
+    ],
+    "answer": [
+      "Syntax highlighting",
+      "Intellisense and code completion",
+      "Client-side parsing and validation"
+    ]
+  },
+  {
+    "id": 175,
+    "domain": "Data Warehouses",
+    "question": "Which Fabric feature allows you to build queries without writing any code?",
+    "type": "radio",
+    "options": [
+      "SQL analytics endpoint",
+      "SQL query editor",
+      "Visual query editor",
+      "Power BI Desktop"
+    ],
+    "answer": ["Visual query editor"]
+  },
+  {
+    "id": 176,
+    "domain": "Data Warehouses",
+    "question": "What action can you perform in both the SQL and Visual query editors in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Create tables",
+      "Create views",
+      "Run pipelines",
+      "Create stored procedures"
+    ],
+    "answer": [
+      "Create tables",
+      "Create views",
+      "Create stored procedures"
+    ]
+  },
+  {
+    "id": 177,
+    "domain": "Data Warehouses",
+    "question": "What type of editor is best suited for users who prefer a drag-and-drop interface similar to Power Query?",
+    "type": "radio",
+    "options": [
+      "T-SQL editor",
+      "SQL analytics endpoint",
+      "Visual query editor",
+      "Query Analyzer"
+    ],
+    "answer": ["Visual query editor"]
+  }, {
+    "id": 178,
+    "domain": "Data Warehouses",
+    "question": "What does a semantic model in Fabric define?",
+    "type": "checkbox",
+    "options": [
+      "Relationships between tables",
+      "Data transformations using Spark",
+      "Aggregation and summarization rules",
+      "Calculations and measures"
+    ],
+    "answer": [
+      "Relationships between tables",
+      "Aggregation and summarization rules",
+      "Calculations and measures"
+    ]
+  },
+  {
+    "id": 179,
+    "domain": "Data Warehouses",
+    "question": "Which feature in the Fabric Model view allows users to create relationships between tables?",
+    "type": "radio",
+    "options": [
+      "DAX Editor",
+      "New Query",
+      "Click-and-drag interface",
+      "Relationship Wizard"
+    ],
+    "answer": ["Click-and-drag interface"]
+  },
+  {
+    "id": 180,
+    "domain": "Data Warehouses",
+    "question": "Which language is used in Fabric to create calculated measures in the semantic model?",
+    "type": "radio",
+    "options": [
+      "T-SQL",
+      "Python",
+      "DAX",
+      "M"
+    ],
+    "answer": ["DAX"]
+  },
+  {
+    "id": 181,
+    "domain": "Data Warehouses",
+    "question": "What happens when you hide a column or table in the semantic model?",
+    "type": "radio",
+    "options": [
+      "It is removed from the data warehouse",
+      "It is excluded from Power BI visuals",
+      "It is hidden from model view but still available for use",
+      "It is archived"
+    ],
+    "answer": ["It is hidden from model view but still available for use"]
+  },
+  {
+    "id": 182,
+    "domain": "Data Warehouses",
+    "question": "What is a benefit of the default semantic model created in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "It includes all new Lakehouse tables automatically",
+      "It is kept in sync with the data warehouse",
+      "It requires manual refreshes",
+      "It enables immediate reporting via Power BI"
+    ],
+    "answer": [
+      "It includes all new Lakehouse tables automatically",
+      "It is kept in sync with the data warehouse",
+      "It enables immediate reporting via Power BI"
+    ]
+  },
+   {
+    "id": 183,
+    "domain": "Data Warehouses",
+    "question": "Which of the following are security features provided by Microsoft Fabric to secure your data warehouse?",
+    "type": "checkbox",
+    "options": [
+      "Role-based access control (RBAC)",
+      "TLS encryption",
+      "Manual access logs",
+      "Azure Storage Service Encryption",
+      "Multifactor authentication (MFA)"
+    ],
+    "answer": [
+      "Role-based access control (RBAC)",
+      "TLS encryption",
+      "Azure Storage Service Encryption",
+      "Multifactor authentication (MFA)"
+    ]
+  },
+  {
+    "id": 184,
+    "domain": "Data Warehouses",
+    "question": "What permission must a user have at minimum to connect to a data warehouse via the SQL analytics endpoint?",
+    "type": "radio",
+    "options": [
+      "Read",
+      "ReadData",
+      "ReadAll",
+      "Contributor"
+    ],
+    "answer": ["Read"]
+  },
+  {
+    "id": 185,
+    "domain": "Data Warehouses",
+    "question": "Which DMV should you use to identify long-running queries in a Fabric data warehouse?",
+    "type": "radio",
+    "options": [
+      "sys.dm_exec_connections",
+      "sys.dm_exec_sessions",
+      "sys.dm_exec_requests",
+      "sys.dm_exec_queries"
+    ],
+    "answer": ["sys.dm_exec_requests"]
+  },
+  {
+    "id": 186,
+    "domain": "Data Warehouses",
+    "question": "Which T-SQL command can be used to terminate a session with a long-running query?",
+    "type": "radio",
+    "options": [
+      "DELETE",
+      "DROP",
+      "KILL",
+      "END SESSION"
+    ],
+    "answer": ["KILL"]
+  },
+  {
+    "id": 187,
+    "domain": "Data Warehouses",
+    "question": "What can workspace Admins do that Members, Contributors, and Viewers cannot when monitoring a Fabric data warehouse?",
+    "type": "radio",
+    "options": [
+      "Access the Visual Query Editor",
+      "View all DMV results",
+      "Create semantic models",
+      "Write Power BI reports"
+    ],
+    "answer": ["View all DMV results"]
+  },
+   {
+    "id": 188,
+    "domain": "Load Data",
+    "question": "What is the primary data storage format used by Microsoft Fabric Data Warehouse?",
+    "type": "radio",
+    "options": [
+      "CSV",
+      "Delta",
+      "Parquet",
+      "JSON"
+    ],
+    "answer": ["Parquet"]
+  },
+  {
+    "id": 189,
+    "domain": "Load Data",
+    "question": "What technology powers the Microsoft Fabric Data Warehouse and enables advanced query processing?",
+    "type": "radio",
+    "options": [
+      "SQL Server Analysis Services",
+      "Power BI Premium",
+      "Synapse Analytics",
+      "Azure Data Factory"
+    ],
+    "answer": ["Synapse Analytics"]
+  },
+  {
+    "id": 190,
+    "domain": "Load Data",
+    "question": "Which of the following is NOT a typical phase of the ETL process?",
+    "type": "radio",
+    "options": [
+      "Data extraction",
+      "Data transformation",
+      "Data visualization",
+      "Data loading"
+    ],
+    "answer": ["Data visualization"]
+  },
+  {
+    "id": 191,
+    "domain": "Load Data",
+    "question": "Which benefit does parallel execution bring to the ETL process in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "Allows ETL to complete only after all transformations are finished",
+      "Reduces the need for post-load optimization",
+      "Speeds up data loading by running steps concurrently when possible",
+      "Prevents incremental loading"
+    ],
+    "answer": ["Speeds up data loading by running steps concurrently when possible"]
+  }, {
+    "id": 192,
+    "domain": "Load Data",
+    "question": "What is the main purpose of staging tables in a data warehouse load process?",
+    "type": "radio",
+    "options": [
+      "To perform analytics on finalized data",
+      "To temporarily store raw and transformed data before loading to final tables",
+      "To back up all data warehouse tables",
+      "To store business logic in views"
+    ],
+    "answer": ["To temporarily store raw and transformed data before loading to final tables"]
+  },
+  {
+    "id": 193,
+    "domain": "Load Data",
+    "question": "Which data loading strategy is typically used when refreshing a data warehouse for the first time?",
+    "type": "radio",
+    "options": [
+      "Incremental load",
+      "Partial load",
+      "Full (initial) load",
+      "Real-time load"
+    ],
+    "answer": ["Full (initial) load"]
+  },
+  {
+    "id": 194,
+    "domain": "Load Data",
+    "question": "What distinguishes an incremental load from a full load?",
+    "type": "radio",
+    "options": [
+      "It updates all records, overwriting history",
+      "It is used only for small datasets",
+      "It loads only new or changed data since the last load",
+      "It deletes all records before inserting new data"
+    ],
+    "answer": ["It loads only new or changed data since the last load"]
+  },
+  {
+    "id": 195,
+    "domain": "Load Data",
+    "question": "Which type of key in a dimension table uniquely identifies each row and is typically system-generated?",
+    "type": "radio",
+    "options": [
+      "Primary key",
+      "Foreign key",
+      "Business key",
+      "Surrogate key"
+    ],
+    "answer": ["Surrogate key"]
+  },
+  {
+    "id": 196,
+    "domain": "Load Data",
+    "question": "What is the purpose of a business key in a data warehouse?",
+    "type": "radio",
+    "options": [
+      "To provide the current timestamp",
+      "To uniquely identify a record in the data warehouse",
+      "To trace records back to the source system",
+      "To replace surrogate keys"
+    ],
+    "answer": ["To trace records back to the source system"]
+  },
+  {
+    "id": 197,
+    "domain": "Load Data",
+    "question": "In a Type 2 Slowly Changing Dimension (SCD), how are changes to records handled?",
+    "type": "radio",
+    "options": [
+      "The old record is updated with new values",
+      "The old record is deleted and replaced",
+      "The new values overwrite the old values in the same row",
+      "A new row is added and the previous one is marked as inactive"
+    ],
+    "answer": ["A new row is added and the previous one is marked as inactive"]
+  },
+  {
+    "id": 198,
+    "domain": "Load Data",
+    "question": "Why should fact tables be loaded after dimension tables in a data warehouse process?",
+    "type": "radio",
+    "options": [
+      "Fact tables are smaller and faster to load",
+      "Dimensions depend on facts for context",
+      "Fact rows must reference surrogate keys from dimension tables",
+      "Dimension tables require aggregated fact data"
+    ],
+    "answer": ["Fact rows must reference surrogate keys from dimension tables"]
+  },
+  {
+    "id": 199,
+    "domain": "Load Data",
+    "question": "Which feature is used in source systems like SQL Server to detect when records are inserted or updated?",
+    "type": "radio",
+    "options": [
+      "ETL scripts",
+      "Business keys",
+      "Change Data Capture (CDC)",
+      "Power Query"
+    ],
+    "answer": ["Change Data Capture (CDC)"]
+  },
+  {
+    "id": 200,
+    "domain": "Load Data",
+    "question": "What is the main purpose of a data pipeline in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To encrypt warehouse data",
+      "To visually create semantic models",
+      "To orchestrate data movement and transformation workflows",
+      "To configure OneLake permissions"
+    ],
+    "answer": ["To orchestrate data movement and transformation workflows"]
+  },
+  {
+    "id": 201,
+    "domain": "Load Data",
+    "question": "Which foundational service powers the data pipeline capabilities in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "Azure Synapse Link",
+      "Azure Data Lake",
+      "Azure Data Factory",
+      "Power BI Service"
+    ],
+    "answer": ["Azure Data Factory"]
+  },
+  {
+    "id": 202,
+    "domain": "Load Data",
+    "question": "When using the Copy Data assistant, which step comes immediately after choosing the data source?",
+    "type": "radio",
+    "options": [
+      "Schedule the pipeline",
+      "Configure staging settings",
+      "Connect to and select data",
+      "Map columns to the destination"
+    ],
+    "answer": ["Connect to and select data"]
+  },
+  {
+    "id": 203,
+    "domain": "Load Data",
+    "question": "Which format is all warehouse data stored in within OneLake?",
+    "type": "radio",
+    "options": [
+      "CSV",
+      "ORC",
+      "JSON",
+      "Delta Parquet"
+    ],
+    "answer": ["Delta Parquet"]
+  },
+  {
+    "id": 204,
+    "domain": "Load Data",
+    "question": "Which of the following is NOT a valid method to create a data pipeline in Fabric?",
+    "type": "radio",
+    "options": [
+      "From the warehouse asset via 'Get Data'",
+      "From the workspace using '+ New > Data pipeline'",
+      "By dragging data tables onto a Power BI report canvas",
+      "By choosing a predefined pipeline template"
+    ],
+    "answer": ["By dragging data tables onto a Power BI report canvas"]
+  },
+  {
+    "id": 205,
+    "domain": "Load Data",
+    "question": "What does the 'Choose a task to start' option offer when creating a pipeline?",
+    "type": "radio",
+    "options": [
+      "A summary view of your lakehouse data",
+      "A connection to Power BI Desktop",
+      "A selection of predefined pipeline templates",
+      "A shortcut to the SQL analytics endpoint"
+    ],
+    "answer": ["A selection of predefined pipeline templates"]
+  },
+  {
+    "id": 206,
+    "domain": "Load Data",
+    "question": "How can you schedule a pipeline in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "By selecting 'New report' in Power BI",
+      "By using the 'Schedule' option from the pipeline editor",
+      "Through the Azure Storage Explorer",
+      "By running a T-SQL job"
+    ],
+    "answer": ["By using the 'Schedule' option from the pipeline editor"]
+  },
+  {
+    "id": 207,
+    "domain": "Load Data",
+    "question": "What is the primary T-SQL command used to import data into a Microsoft Fabric warehouse?",
+    "type": "radio",
+    "options": [
+      "BULK INSERT",
+      "COPY INTO",
+      "INSERT INTO",
+      "SELECT INTO"
+    ],
+    "answer": ["COPY INTO"]
+  },
+  {
+    "id": 208,
+    "domain": "Load Data",
+    "question": "Which authentication methods are supported when using the COPY statement to connect to Azure Storage?",
+    "type": "checkbox",
+    "options": [
+      "Shared Access Signature (SAS)",
+      "Azure Active Directory Token",
+      "Storage Account Key (SAK)",
+      "OAuth 2.0 Token"
+    ],
+    "answer": ["Shared Access Signature (SAS)", "Storage Account Key (SAK)"]
+  },
+  {
+    "id": 209,
+    "domain": "Load Data",
+    "question": "Which option can be used with the COPY statement to isolate rows that failed to load due to data issues?",
+    "type": "radio",
+    "options": [
+      "LOGFILE",
+      "REJECTED_ROW_LOCATION",
+      "SKIP_HEADER",
+      "ERROR_TRACKING"
+    ],
+    "answer": ["REJECTED_ROW_LOCATION"]
+  },
+  {
+    "id": 210,
+    "domain": "Load Data",
+    "question": "When loading multiple files using the COPY statement, which condition must be met?",
+    "type": "radio",
+    "options": [
+      "Files must be compressed in a ZIP format",
+      "All files must reside in different Azure containers",
+      "Files must have identical structure",
+      "Files must be less than 1GB each"
+    ],
+    "answer": ["Files must have identical structure"]
+  },
+  {
+    "id": 211,
+    "domain": "Load Data",
+    "question": "Which SQL command should be used to insert data from one table into another existing table?",
+    "type": "radio",
+    "options": [
+      "COPY INTO",
+      "INSERT...SELECT",
+      "CREATE TABLE AS SELECT",
+      "UPDATE"
+    ],
+    "answer": ["INSERT...SELECT"]
+  },
+  {
+    "id": 212,
+    "domain": "Load Data",
+    "question": "Which of the following accurately describes the CREATE TABLE AS SELECT (CTAS) operation?",
+    "type": "radio",
+    "options": [
+      "It creates a view from a query result.",
+      "It creates a new table and inserts data from a subquery.",
+      "It updates an existing table in-place.",
+      "It deletes old data before loading new records."
+    ],
+    "answer": ["It creates a new table and inserts data from a subquery."]
+  },
+  {
+    "id": 213,
+    "domain": "Load Data",
+    "question": "What advantage does the shared logical SQL server in a Fabric workspace provide?",
+    "type": "radio",
+    "options": [
+      "Improved query caching between workspaces",
+      "Easier file format conversion for lakehouses",
+      "Seamless cross-database querying between warehouse and lakehouse assets",
+      "Faster Power BI report refreshes"
+    ],
+    "answer": ["Seamless cross-database querying between warehouse and lakehouse assets"]
+  }, {
+    "id": 214,
+    "domain": "Load Data",
+    "question": "What is one major advantage of using Dataflow Gen2 over the original dataflows?",
+    "type": "radio",
+    "options": [
+      "It supports only lakehouse destinations",
+      "It reduces the number of steps to create a dataflow",
+      "It requires advanced coding to operate",
+      "It eliminates the need for Power Query"
+    ],
+    "answer": ["It reduces the number of steps to create a dataflow"]
+  },
+  {
+    "id": 215,
+    "domain": "Load Data",
+    "question": "Which of the following destinations can you load data into from a Dataflow Gen2?",
+    "type": "checkbox",
+    "options": [
+      "Azure SQL Database",
+      "Azure Data Explorer (Kusto)",
+      "Excel spreadsheet",
+      "Lakehouse",
+      "Warehouse"
+    ],
+    "answer": [
+      "Azure SQL Database",
+      "Azure Data Explorer (Kusto)",
+      "Lakehouse",
+      "Warehouse"
+    ]
+  },
+  {
+    "id": 216,
+    "domain": "Load Data",
+    "question": "In a Dataflow Gen2, what happens when you choose the 'Append' update method for a warehouse destination?",
+    "type": "radio",
+    "options": [
+      "It overwrites the entire table with new data",
+      "It deletes old records and inserts transformed rows",
+      "It adds new rows to an existing table",
+      "It merges rows based on primary key"
+    ],
+    "answer": ["It adds new rows to an existing table"]
+  },
+  {
+    "id": 217,
+    "domain": "Load Data",
+    "question": "What is the purpose of adding a data destination in a Dataflow Gen2?",
+    "type": "radio",
+    "options": [
+      "To trigger downstream pipelines automatically",
+      "To perform statistical modeling",
+      "To separate ETL logic from storage configuration",
+      "To enforce row-level security"
+    ],
+    "answer": ["To separate ETL logic from storage configuration"]
+  },
+  {
+    "id": 218,
+    "domain": "Load Data",
+    "question": "Which of the following update methods are available when selecting a warehouse as the destination in a dataflow?",
+    "type": "checkbox",
+    "options": [
+      "Append",
+      "Upsert",
+      "Replace",
+      "Merge",
+      "Sync"
+    ],
+    "answer": ["Append", "Replace"]
+  },
+  {
+    "id": 219,
+    "domain": "Load Data",
+    "question": "How can Copilot assist in Dataflow Gen2 transformations?",
+    "type": "radio",
+    "options": [
+      "By automatically deploying pipelines",
+      "By enabling SQL-based scripting",
+      "By accepting natural language instructions to apply transformations",
+      "By converting dataflows into Power BI reports"
+    ],
+    "answer": ["By accepting natural language instructions to apply transformations"]
+  },
+  {
+    "id": 220,
+    "domain": "Load Data",
+    "question": "What must you do for changes in a Dataflow Gen2 to take effect?",
+    "type": "radio",
+    "options": [
+      "Close and reopen the dataflow",
+      "Clear the cache",
+      "Publish the dataflow",
+      "Manually refresh the table"
+    ],
+    "answer": ["Publish the dataflow"]
+  },
+   {
+    "id": 221,
+    "domain": "Monitor",
+    "question": "Why is monitoring ingestion and transformation processes important in a data analytics solution?",
+    "type": "radio",
+    "options": [
+      "To reduce storage costs",
+      "To detect and fix errors before they impact users",
+      "To automatically generate reports",
+      "To eliminate the need for data transformation"
+    ],
+    "answer": ["To detect and fix errors before they impact users"]
+  },
+  {
+    "id": 222,
+    "domain": "Monitor",
+    "question": "Which tool in Microsoft Fabric helps track ingestion and transformation activities?",
+    "type": "radio",
+    "options": [
+      "Power BI Service",
+      "SQL Analytics Endpoint",
+      "Monitor Hub",
+      "Notebook Runner"
+    ],
+    "answer": ["Monitor Hub"]
+  },
+  {
+    "id": 223,
+    "domain": "Monitor",
+    "question": "What is the purpose of Activator in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To visualize data models in Power BI",
+      "To initiate actions when data patterns or conditions are detected",
+      "To manage storage accounts",
+      "To schedule data refreshes in semantic models"
+    ],
+    "answer": ["To initiate actions when data patterns or conditions are detected"]
+  },
+  {
+    "id": 224,
+    "domain": "Monitor",
+    "question": "What are the primary features provided in the Monitor domain of Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Monitor Hub for tracking data activities",
+      "Activator for triggering actions on data changes",
+      "Semantic modeling tools",
+      "SQL Analytics Endpoint integration"
+    ],
+    "answer": [
+      "Monitor Hub for tracking data activities",
+      "Activator for triggering actions on data changes"
+    ]
+  },
+  {
+    "id": 225,
+    "domain": "Monitor",
+    "question": "Which of the following best describes raw data before it is transformed?",
+    "type": "radio",
+    "options": [
+      "Ready for immediate business decisions",
+      "Already visualized and modeled",
+      "Not useful for analysis without processing",
+      "Stored directly in Power BI"
+    ],
+    "answer": ["Not useful for analysis without processing"]
+  },
+  {
+    "id": 226,
+    "domain": "Monitor",
+    "question": "What does Microsoft Fabric enable by combining data from different sources and transforming it?",
+    "type": "radio",
+    "options": [
+      "Better graphics in dashboards",
+      "Faster SQL query execution",
+      "Useful insights for business decision-making",
+      "Improved source system performance"
+    ],
+    "answer": ["Useful insights for business decision-making"]
+  },
+  {
+    "id": 227,
+    "domain": "Monitor",
+    "question": "At the end of the Monitor module, what will users be able to do?",
+    "type": "radio",
+    "options": [
+      "Build lakehouses with Power BI",
+      "Use Monitor Hub to monitor activities and complete an exercise",
+      "Create data pipelines using notebooks only",
+      "Deploy machine learning models automatically"
+    ],
+    "answer": ["Use Monitor Hub to monitor activities and complete an exercise"]
+  },
+  {
+    "id": 228,
+    "domain": "Monitor",
+    "question": "What is the main purpose of monitoring in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To automatically create semantic models",
+      "To expose and investigate system errors and ensure systems run as expected",
+      "To store raw data permanently",
+      "To build data pipelines without manual coding"
+    ],
+    "answer": ["To expose and investigate system errors and ensure systems run as expected"]
+  },
+  {
+    "id": 229,
+    "domain": "Monitor",
+    "question": "Which Fabric activity involves orchestrating a group of tasks that collectively perform data ingestion?",
+    "type": "radio",
+    "options": [
+      "Semantic model refresh",
+      "Dataflow activity",
+      "Data pipeline activity",
+      "Notebook activity"
+    ],
+    "answer": ["Data pipeline activity"]
+  },
+  {
+    "id": 230,
+    "domain": "Monitor",
+    "question": "What monitoring details can be checked when investigating dataflow issues?",
+    "type": "checkbox",
+    "options": [
+      "Start and end times",
+      "Status and duration",
+      "Spark resource usage",
+      "Table load activities"
+    ],
+    "answer": [
+      "Start and end times",
+      "Status and duration",
+      "Table load activities"
+    ]
+  },
+  {
+    "id": 231,
+    "domain": "Monitor",
+    "question": "Which Fabric component uses Apache Spark for transforming and loading data into lakehouses?",
+    "type": "radio",
+    "options": [
+      "Semantic model",
+      "Notebook",
+      "Dataflow",
+      "Pipeline"
+    ],
+    "answer": ["Notebook"]
+  },
+  {
+    "id": 232,
+    "domain": "Monitor",
+    "question": "What should you monitor in semantic model refreshes to detect transient issues?",
+    "type": "radio",
+    "options": [
+      "Schema changes",
+      "Manual refreshes",
+      "Refresh retries",
+      "Column mappings"
+    ],
+    "answer": ["Refresh retries"]
+  },
+  {
+    "id": 233,
+    "domain": "Monitor",
+    "question": "Which of the following are best practices for monitoring Fabric activities?",
+    "type": "checkbox",
+    "options": [
+      "Identify metrics to track",
+      "Automatically retry all failed tasks",
+      "Collect and analyze monitoring data regularly",
+      "Review logs to understand normal behavior",
+      "Optimize performance based on monitoring data"
+    ],
+    "answer": [
+      "Identify metrics to track",
+      "Collect and analyze monitoring data regularly",
+      "Review logs to understand normal behavior",
+      "Optimize performance based on monitoring data"
+    ]
+  },
+  {
+    "id": 234,
+    "domain": "Monitor",
+    "question": "What are eventstreams in Microsoft Fabric typically used for?",
+    "type": "radio",
+    "options": [
+      "Triggering pipeline refreshes on demand",
+      "Capturing and routing real-time or streaming data for analytics",
+      "Generating one-time batch data",
+      "Building semantic models visually"
+    ],
+    "answer": ["Capturing and routing real-time or streaming data for analytics"]
+  },
+  {
+    "id": 235,
+    "domain": "Monitor",
+    "question": "What is the main purpose of the Monitor Hub in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To generate Power BI reports from raw data",
+      "To visualize and centralize the status of Fabric activities in one interface",
+      "To build and edit semantic models",
+      "To create real-time eventstreams for monitoring IoT devices"
+    ],
+    "answer": ["To visualize and centralize the status of Fabric activities in one interface"]
+  },
+  {
+    "id": 236,
+    "domain": "Monitor",
+    "question": "Which of the following activity types can be monitored using the Monitor Hub?",
+    "type": "checkbox",
+    "options": [
+      "Data pipeline execution history",
+      "Semantic model refreshes",
+      "Spark job and notebook execution",
+      "PowerPoint presentations",
+      "Excel workbook imports"
+    ],
+    "answer": [
+      "Data pipeline execution history",
+      "Semantic model refreshes",
+      "Spark job and notebook execution"
+    ]
+  },
+  {
+    "id": 237,
+    "domain": "Monitor",
+    "question": "How do you open the Monitor Hub in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "From the Data hub tab",
+      "From the SQL Analytics endpoint",
+      "From the Fabric navigation pane by selecting Monitor",
+      "From the Power BI service"
+    ],
+    "answer": ["From the Fabric navigation pane by selecting Monitor"]
+  },
+  {
+    "id": 238,
+    "domain": "Monitor",
+    "question": "What kind of metadata can be viewed for an activity in Monitor Hub?",
+    "type": "checkbox",
+    "options": [
+      "Activity status",
+      "Start and end time",
+      "Duration",
+      "SQL index usage",
+      "Activity statistics"
+    ],
+    "answer": [
+      "Activity status",
+      "Start and end time",
+      "Duration",
+      "Activity statistics"
+    ]
+  },
+  {
+    "id": 239,
+    "domain": "Monitor",
+    "question": "What action can you take by selecting the ellipsis (...) next to a listed activity in Monitor Hub?",
+    "type": "radio",
+    "options": [
+      "Generate a DAX query",
+      "Run a PowerShell script",
+      "Retry the activity or view details and historical runs",
+      "Create a new workspace"
+    ],
+    "answer": ["Retry the activity or view details and historical runs"]
+  },
+  {
+    "id": 240,
+    "domain": "Monitor",
+    "question": "Which Spark-related activities can be monitored in the Monitor Hub?",
+    "type": "checkbox",
+    "options": [
+      "Spark Job Definitions",
+      "Spark applications triggered from notebooks",
+      "Spark apps from pipelines",
+      "Event stream configuration scripts",
+      "T-SQL user sessions"
+    ],
+    "answer": [
+      "Spark Job Definitions",
+      "Spark applications triggered from notebooks",
+      "Spark apps from pipelines"
+    ]
+  }, {
+    "id": 241,
+    "domain": "Monitor",
+    "question": "What is the primary purpose of Microsoft Fabric Activator?",
+    "type": "radio",
+    "options": [
+      "To manually clean historical datasets",
+      "To visualize real-time dashboards",
+      "To trigger actions based on real-time streaming data events",
+      "To schedule daily ETL jobs"
+    ],
+    "answer": ["To trigger actions based on real-time streaming data events"]
+  },
+  {
+    "id": 242,
+    "domain": "Monitor",
+    "question": "Which of the following are considered core concepts of Activator?",
+    "type": "checkbox",
+    "options": [
+      "Events",
+      "Objects",
+      "Schedules",
+      "Properties",
+      "Rules"
+    ],
+    "answer": [
+      "Events",
+      "Objects",
+      "Properties",
+      "Rules"
+    ]
+  },
+  {
+    "id": 243,
+    "domain": "Monitor",
+    "question": "What is an example of a rule you can define in Activator?",
+    "type": "radio",
+    "options": [
+      "Display SQL query plans",
+      "Trigger an alert when a sensor temperature exceeds a threshold",
+      "Backup a data warehouse daily",
+      "Assign workspace permissions to new users"
+    ],
+    "answer": ["Trigger an alert when a sensor temperature exceeds a threshold"]
+  },
+  {
+    "id": 244,
+    "domain": "Monitor",
+    "question": "Which of the following are valid use cases for using Microsoft Fabric Activator?",
+    "type": "checkbox",
+    "options": [
+      "Send alerts when shipment updates are delayed",
+      "Flag real-time app issues",
+      "Import CSV files into a lakehouse",
+      "Run ads when store sales decline",
+      "Notify users when perishable goods are at risk"
+    ],
+    "answer": [
+      "Send alerts when shipment updates are delayed",
+      "Flag real-time app issues",
+      "Run ads when store sales decline",
+      "Notify users when perishable goods are at risk"
+    ]
+  },
+  {
+    "id": 245,
+    "domain": "Monitor",
+    "question": "Which query language can be used with Activator to define logic-based actions?",
+    "type": "radio",
+    "options": [
+      "T-SQL",
+      "DAX",
+      "Kusto Query Language (KQL)",
+      "Python"
+    ],
+    "answer": ["Kusto Query Language (KQL)"]
+  },
+  {
+    "id": 246,
+    "domain": "CI/CD",
+    "question": "What is the primary purpose of lifecycle management in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To monitor long-running queries",
+      "To manage security permissions for users",
+      "To automate backup of data lakes",
+      "To release and manage Fabric item changes through development and production"
+    ],
+    "answer": ["To release and manage Fabric item changes through development and production"]
+  },
+  {
+    "id": 247,
+    "domain": "CI/CD",
+    "question": "Which tools can Microsoft Fabric integrate with for source control?",
+    "type": "checkbox",
+    "options": [
+      "GitHub",
+      "Azure DevOps",
+      "Google Drive",
+      "Bitbucket",
+      "OneDrive"
+    ],
+    "answer": ["GitHub", "Azure DevOps"]
+  },
+  {
+    "id": 248,
+    "domain": "CI/CD",
+    "question": "What does CI/CD stand for in the context of Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "Continuous Implementation and Configuration Design",
+      "Current Insights and Component Deployment",
+      "Continuous Integration and Continuous Delivery",
+      "Centralized Integration and Code Distribution"
+    ],
+    "answer": ["Continuous Integration and Continuous Delivery"]
+  },
+  {
+    "id": 249,
+    "domain": "CI/CD",
+    "question": "Which of the following are supported capabilities for lifecycle management in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Deployment pipelines",
+      "Fabric REST APIs for automation",
+      "SQL job agent scheduling",
+      "Source control integration",
+      "On-premise database mirroring"
+    ],
+    "answer": [
+      "Deployment pipelines",
+      "Fabric REST APIs for automation",
+      "Source control integration"
+    ]
+  },{
+    "id": 250,
+    "domain": "CI/CD",
+    "question": "What is the main purpose of Continuous Integration (CI) in Fabric?",
+    "type": "radio",
+    "options": [
+      "To manage workspace permissions for developers",
+      "To promote code to production automatically",
+      "To frequently commit and validate code using builds and automated testing",
+      "To manually deploy changes between environments"
+    ],
+    "answer": ["To frequently commit and validate code using builds and automated testing"]
+  },
+  {
+    "id": 251,
+    "domain": "CI/CD",
+    "question": "What happens during the Continuous Delivery (CD) phase?",
+    "type": "radio",
+    "options": [
+      "Code is edited and saved on a developer’s local machine",
+      "Code is automatically released into production without testing",
+      "Code is deployed to a staging environment for further automated testing",
+      "Developers revert their changes after manual review"
+    ],
+    "answer": ["Code is deployed to a staging environment for further automated testing"]
+  },
+  {
+    "id": 252,
+    "domain": "CI/CD",
+    "question": "Which statement best describes Continuous Deployment?",
+    "type": "radio",
+    "options": [
+      "Developers manually deploy their changes after testing",
+      "Changes are committed less frequently to avoid errors",
+      "Updates are automatically released into production after passing automated tests",
+      "Developers test their changes using local scripts before merging"
+    ],
+    "answer": ["Updates are automatically released into production after passing automated tests"]
+  },
+  {
+    "id": 253,
+    "domain": "CI/CD",
+    "question": "Which components are used in Fabric to implement CI/CD processes?",
+    "type": "checkbox",
+    "options": [
+      "Git",
+      "Deployment pipelines",
+      "Fabric REST APIs",
+      "Dataflows",
+      "Monitor Hub"
+    ],
+    "answer": ["Git", "Deployment pipelines", "Fabric REST APIs"]
+  },{
+    "id": 259,
+    "domain": "CI/CD",
+    "question": "What is the main purpose of using deployment pipelines in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To schedule backups for Power BI reports",
+      "To automate the movement of content across development, test, and production environments",
+      "To create data visualizations",
+      "To analyze DAX expressions"
+    ],
+    "answer": ["To automate the movement of content across development, test, and production environments"]
+  },
+  {
+    "id": 260,
+    "domain": "CI/CD",
+    "question": "Which two methods can you use to create a deployment pipeline in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "From the Workspaces icon on the navigation pane",
+      "From Power BI Desktop",
+      "From the Create deployment pipeline icon in a workspace",
+      "From GitHub CLI",
+      "From the Monitor Hub"
+    ],
+    "answer": [
+      "From the Workspaces icon on the navigation pane",
+      "From the Create deployment pipeline icon in a workspace"
+    ]
+  },
+  {
+    "id": 261,
+    "domain": "CI/CD",
+    "question": "What happens when you select 'Deploy' in a deployment pipeline?",
+    "type": "radio",
+    "options": [
+      "A Git pull request is automatically created",
+      "The workspace is archived and backed up",
+      "Content is copied from one pipeline stage to another",
+      "Dataflow schedules are refreshed"
+    ],
+    "answer": ["Content is copied from one pipeline stage to another"]
+  },
+  {
+    "id": 262,
+    "domain": "CI/CD",
+    "question": "Which of the following statements about using deployment pipelines with Git integration is true?",
+    "type": "radio",
+    "options": [
+      "Git repositories are automatically updated after deployment",
+      "Git integration must be disabled when using pipelines",
+      "You must manually commit changes to update Git after deploying between stages",
+      "You can only use deployment pipelines with the main Git branch"
+    ],
+    "answer": ["You must manually commit changes to update Git after deploying between stages"]
+  },
+  {
+    "id": 263,
+    "domain": "CI/CD",
+    "question": "What does the green check mark on a deployment stage indicate?",
+    "type": "radio",
+    "options": [
+      "The stage has passed all automated tests",
+      "The stage is connected to Power BI",
+      "Content exists in the stage and is synchronized with Fabric",
+      "The workspace is disconnected from the Git repository"
+    ],
+    "answer": ["Content exists in the stage and is synchronized with Fabric"]
+  },
+{
+    "id": 259,
+    "domain": "CI/CD",
+    "question": "What is the main purpose of using deployment pipelines in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To schedule backups for Power BI reports",
+      "To automate the movement of content across development, test, and production environments",
+      "To create data visualizations",
+      "To analyze DAX expressions"
+    ],
+    "answer": ["To automate the movement of content across development, test, and production environments"]
+  },
+  {
+    "id": 260,
+    "domain": "CI/CD",
+    "question": "Which two methods can you use to create a deployment pipeline in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "From the Workspaces icon on the navigation pane",
+      "From Power BI Desktop",
+      "From the Create deployment pipeline icon in a workspace",
+      "From GitHub CLI",
+      "From the Monitor Hub"
+    ],
+    "answer": [
+      "From the Workspaces icon on the navigation pane",
+      "From the Create deployment pipeline icon in a workspace"
+    ]
+  },
+  {
+    "id": 261,
+    "domain": "CI/CD",
+    "question": "What happens when you select 'Deploy' in a deployment pipeline?",
+    "type": "radio",
+    "options": [
+      "A Git pull request is automatically created",
+      "The workspace is archived and backed up",
+      "Content is copied from one pipeline stage to another",
+      "Dataflow schedules are refreshed"
+    ],
+    "answer": ["Content is copied from one pipeline stage to another"]
+  },
+  {
+    "id": 262,
+    "domain": "CI/CD",
+    "question": "Which of the following statements about using deployment pipelines with Git integration is true?",
+    "type": "radio",
+    "options": [
+      "Git repositories are automatically updated after deployment",
+      "Git integration must be disabled when using pipelines",
+      "You must manually commit changes to update Git after deploying between stages",
+      "You can only use deployment pipelines with the main Git branch"
+    ],
+    "answer": ["You must manually commit changes to update Git after deploying between stages"]
+  },
+  {
+    "id": 263,
+    "domain": "CI/CD",
+    "question": "What does the green check mark on a deployment stage indicate?",
+    "type": "radio",
+    "options": [
+      "The stage has passed all automated tests",
+      "The stage is connected to Power BI",
+      "Content exists in the stage and is synchronized with Fabric",
+      "The workspace is disconnected from the Git repository"
+    ],
+    "answer": ["Content exists in the stage and is synchronized with Fabric"]
+  },
+  {
+    "id": 264,
+    "domain": "Secure Data Access",
+    "question": "What is a security use case in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "A list of security vulnerabilities within Fabric",
+      "A standardized compliance checklist for data encryption",
+      "A set of users needing data access and accessing it in a specific way",
+      "An internal audit requirement for external reporting"
+    ],
+    "answer": ["A set of users needing data access and accessing it in a specific way"]
+  },
+  {
+    "id": 265,
+    "domain": "Secure Data Access",
+    "question": "Which of the following actions might a data engineer typically need to perform in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "View only Power BI reports",
+      "Run Apache Spark jobs for predictive modeling",
+      "Access data in a lakehouse to develop downstream data products",
+      "Submit insurance claims through the portal"
+    ],
+    "answer": ["Access data in a lakehouse to develop downstream data products"]
+  },
+  {
+    "id": 266,
+    "domain": "Secure Data Access",
+    "question": "Which Fabric access control features are used to secure data and provide user access?",
+    "type": "checkbox",
+    "options": [
+      "Workspace and item permissions",
+      "Compute permissions",
+      "OneLake data access roles (preview)",
+      "SQL data masking",
+      "Row-level audit triggers"
+    ],
+    "answer": [
+      "Workspace and item permissions",
+      "Compute permissions",
+      "OneLake data access roles (preview)"
+    ]
+  },
+  {
+    "id": 267,
+    "domain": "Secure Data Access",
+    "question": "What will this module help you learn about Microsoft Fabric security?",
+    "type": "radio",
+    "options": [
+      "How to encrypt all data in transit",
+      "How to install antivirus on lakehouses",
+      "How to configure workspace and item-level security",
+      "How to remove users from all Fabric workspaces"
+    ],
+    "answer": ["How to configure workspace and item-level security"]
+  },  {
+    "id": 268,
+    "domain": "Secure Data Access",
+    "question": "Which of the following best describes Microsoft Fabric's security model?",
+    "type": "radio",
+    "options": [
+      "A single-layer security model for managing user identities",
+      "A three-level security model evaluated sequentially for access control",
+      "A firewall-based model for controlling cloud access",
+      "A peer-to-peer encryption model for network communication"
+    ],
+    "answer": ["A three-level security model evaluated sequentially for access control"]
+  },
+  {
+    "id": 269,
+    "domain": "Secure Data Access",
+    "question": "What is the correct order of evaluation for access in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "Data security > Fabric access > Microsoft Entra ID authentication",
+      "Microsoft Entra ID authentication > Data security > Fabric access",
+      "Microsoft Entra ID authentication > Fabric access > Data security",
+      "Fabric access > Microsoft Entra ID authentication > Data security"
+    ],
+    "answer": ["Microsoft Entra ID authentication > Fabric access > Data security"]
+  },
+  {
+    "id": 270,
+    "domain": "Secure Data Access",
+    "question": "Which of the following are primary access control building blocks in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Workspace roles",
+      "Item permissions",
+      "Semantic lock policies",
+      "Compute or granular permissions",
+      "OneLake data access controls (preview)"
+    ],
+    "answer": [
+      "Workspace roles",
+      "Item permissions",
+      "Compute or granular permissions",
+      "OneLake data access controls (preview)"
+    ]
+  },
+  {
+    "id": 271,
+    "domain": "Secure Data Access",
+    "question": "What is the purpose of OneLake data access controls in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To apply semantic model encryption",
+      "To manage access to tables in Power BI reports",
+      "To restrict access to specific files or folders in the lakehouse",
+      "To revoke all workspace roles automatically"
+    ],
+    "answer": ["To restrict access to specific files or folders in the lakehouse"]
+  },
+  {
+    "id": 272,
+    "domain": "Secure Data Access",
+    "question": "When do you typically use item permissions instead of workspace roles?",
+    "type": "radio",
+    "options": [
+      "When users are external to Microsoft Fabric",
+      "When workspace roles grant too little access",
+      "When workspace roles grant too much access",
+      "When managing SQL compute resources"
+    ],
+    "answer": ["When workspace roles grant too much access"]
+  }, {
+    "id": 273,
+    "domain": "Secure Data Access",
+    "question": "What is the main difference between workspace roles and item permissions in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "Workspace roles apply only to Spark notebooks while item permissions apply to pipelines",
+      "Workspace roles provide access to an entire workspace, while item permissions control access to specific Fabric items",
+      "Item permissions automatically override Entra ID restrictions",
+      "Workspace roles are temporary, while item permissions are permanent"
+    ],
+    "answer": ["Workspace roles provide access to an entire workspace, while item permissions control access to specific Fabric items"]
+  },
+  {
+    "id": 274,
+    "domain": "Secure Data Access",
+    "question": "Which workspace role in Fabric allows a user to create Fabric items and modify data but not manage workspace permissions?",
+    "type": "radio",
+    "options": [
+      "Viewer",
+      "Member",
+      "Admin",
+      "Contributor"
+    ],
+    "answer": ["Contributor"]
+  },
+  {
+    "id": 275,
+    "domain": "Secure Data Access",
+    "question": "You want a user to ONLY view a specific lakehouse and read its data but not see other workspace items. What should you do?",
+    "type": "radio",
+    "options": [
+      "Assign the user to the Viewer workspace role",
+      "Assign the user to the Contributor role and restrict metadata access",
+      "Remove them from workspace roles and assign item permissions with 'Read all SQL endpoint data' or 'Read all Apache Spark'",
+      "Grant them access through Entra ID directly"
+    ],
+    "answer": ["Remove them from workspace roles and assign item permissions with 'Read all SQL endpoint data' or 'Read all Apache Spark'"]
+  },
+  {
+    "id": 276,
+    "domain": "Secure Data Access",
+    "question": "Which of the following permissions must be selected to allow a user to read data in a lakehouse?",
+    "type": "checkbox",
+    "options": [
+      "Read all SQL endpoint data",
+      "Modify permissions",
+      "Read all Apache Spark",
+      "Manage workspace",
+      "Read metadata only"
+    ],
+    "answer": [
+      "Read all SQL endpoint data",
+      "Read all Apache Spark"
+    ]
+  },
+  {
+    "id": 277,
+    "domain": "Secure Data Access",
+    "question": "What does assigning a user to the Viewer role in a workspace allow them to do?",
+    "type": "radio",
+    "options": [
+      "Create and modify data items",
+      "Manage other users and permissions",
+      "View all content and data in the workspace",
+      "Only access Power BI reports"
+    ],
+    "answer": ["View all content and data in the workspace"]
+  },
+  {
+    "id": 278,
+    "domain": "Secure Data Access",
+    "question": "Which command types can be used to apply granular permissions through the SQL analytics endpoint in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "GRANT",
+      "ALTER",
+      "REVOKE",
+      "DENY",
+      "SELECT"
+    ],
+    "answer": [
+      "GRANT",
+      "REVOKE",
+      "DENY"
+    ]
+  },
+  {
+    "id": 279,
+    "domain": "Secure Data Access",
+    "question": "What part of the lakehouse can be secured using OneLake data access roles (preview)?",
+    "type": "radio",
+    "options": [
+      "SQL views",
+      "Power BI reports",
+      "Specific folders in the lake view",
+      "Pipelines connected to the lakehouse"
+    ],
+    "answer": ["Specific folders in the lake view"]
+  },
+  {
+    "id": 280,
+    "domain": "Secure Data Access",
+    "question": "How are OneLake data access role permissions applied to folders and subfolders?",
+    "type": "radio",
+    "options": [
+      "They must be applied manually to each subfolder",
+      "They only apply to top-level folders",
+      "They apply recursively to subfolders by default",
+      "They apply only if the user is an Admin"
+    ],
+    "answer": ["They apply recursively to subfolders by default"]
+  },
+  {
+    "id": 281,
+    "domain": "Secure Data Access",
+    "question": "Which security features can be applied using the SQL analytics endpoint in a lakehouse or warehouse?",
+    "type": "checkbox",
+    "options": [
+      "Row-level security",
+      "Column-level security",
+      "Power BI view permissions",
+      "Dynamic data masking",
+      "Report-level restrictions"
+    ],
+    "answer": [
+      "Row-level security",
+      "Column-level security",
+      "Dynamic data masking"
+    ]
+  },
+  {
+    "id": 282,
+    "domain": "Secure Data Access",
+    "question": "Which language can be used to define row-level security (RLS) in a semantic model?",
+    "type": "radio",
+    "options": [
+      "T-SQL",
+      "KQL",
+      "DAX",
+      "JSON"
+    ],
+    "answer": ["DAX"]
+  },
+  {
+    "id": 283,
+    "domain": "Dataflows Gen2",
+    "question": "What is the primary purpose of using Dataflows Gen2 in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To build AI models in notebooks",
+      "To manage user permissions across workspaces",
+      "To ingest and transform data from multiple sources",
+      "To deploy reports to production environments"
+    ],
+    "answer": ["To ingest and transform data from multiple sources"]
+  },
+  {
+    "id": 284,
+    "domain": "Dataflows Gen2",
+    "question": "What benefit do Dataflows Gen2 provide compared to manual extraction and transformation of data?",
+    "type": "radio",
+    "options": [
+      "They eliminate the need for a data warehouse",
+      "They increase the number of data sources allowed",
+      "They reduce errors and save time",
+      "They automate semantic model creation"
+    ],
+    "answer": ["They reduce errors and save time"]
+  },
+  {
+    "id": 285,
+    "domain": "Dataflows Gen2",
+    "question": "How can Dataflows Gen2 be incorporated into larger solutions in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "By embedding them in semantic models",
+      "By including them in data pipelines",
+      "By using them as a data source in Power BI",
+      "By exporting them to Excel files",
+      "By connecting them to notebooks"
+    ],
+    "answer": [
+      "By including them in data pipelines",
+      "By using them as a data source in Power BI"
+    ]
+  },
+  {
+    "id": 286,
+    "domain": "Dataflows Gen2",
+    "question": "What scenario is described to highlight the usefulness of Dataflows Gen2 in the module?",
+    "type": "radio",
+    "options": [
+      "An IT company migrating legacy databases",
+      "A university managing online student records",
+      "A retail company consolidating global store data",
+      "A healthcare firm encrypting patient data"
+    ],
+    "answer": ["A retail company consolidating global store data"]
+  },
+  {
+    "id": 287,
+    "domain": "Dataflows Gen2",
+    "question": "What is the primary function of a Dataflow Gen2 in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To visualize Power BI dashboards",
+      "To manage user permissions and roles",
+      "To extract, transform, and load data from multiple sources",
+      "To perform real-time data streaming analysis"
+    ],
+    "answer": ["To extract, transform, and load data from multiple sources"]
+  },
+  {
+    "id": 288,
+    "domain": "Dataflows Gen2",
+    "question": "Which interface is primarily used to design transformations in a Dataflow Gen2?",
+    "type": "radio",
+    "options": [
+      "Microsoft Entra Admin Portal",
+      "T-SQL Editor",
+      "Power Query Online",
+      "Power BI Service"
+    ],
+    "answer": ["Power Query Online"]
+  },
+  {
+    "id": 289,
+    "domain": "Dataflows Gen2",
+    "question": "How can Dataflow Gen2 promote reusable ETL logic?",
+    "type": "radio",
+    "options": [
+      "By duplicating the connection to the source every time",
+      "By allowing analysts to bypass all transformations",
+      "By exposing a standard semantic model to other users",
+      "By reducing the need to recreate data connections for each use"
+    ],
+    "answer": ["By reducing the need to recreate data connections for each use"]
+  },
+  {
+    "id": 290,
+    "domain": "Dataflows Gen2",
+    "question": "Which of the following is a benefit of using Dataflows Gen2?",
+    "type": "checkbox",
+    "options": [
+      "Enables standardized transformation logic",
+      "Supports real-time analytics for IoT scenarios",
+      "Improves performance by reducing repeated data extraction",
+      "Offers a low-code interface for integrating data",
+      "Automatically replaces the need for a data warehouse"
+    ],
+    "answer": [
+      "Enables standardized transformation logic",
+      "Improves performance by reducing repeated data extraction",
+      "Offers a low-code interface for integrating data"
+    ]
+  },
+  {
+    "id": 291,
+    "domain": "Dataflows Gen2",
+    "question": "What is one limitation of Dataflows Gen2?",
+    "type": "radio",
+    "options": [
+      "They can't be included in data pipelines",
+      "They require manual code for every transformation",
+      "They don't support row-level security",
+      "They can't connect to multiple data sources"
+    ],
+    "answer": ["They don't support row-level security"]
+  },
+  {
+    "id": 292,
+    "domain": "Dataflows Gen2",
+    "question": "In an ELT approach using Dataflow Gen2, what typically happens *after* data is loaded into a destination like a lakehouse?",
+    "type": "radio",
+    "options": [
+      "The data is automatically secured with row-level security",
+      "A Dataflow Gen2 connects to the destination to transform the data",
+      "The data is immediately exported to PowerPoint",
+      "The dataflow creates a new Git branch"
+    ],
+    "answer": ["A Dataflow Gen2 connects to the destination to transform the data"]
+  },
+   {
+    "id": 293,
+    "domain": "Dataflows Gen2",
+    "question": "What interface does Dataflows Gen2 use to visualize transformations?",
+    "type": "radio",
+    "options": [
+      "SQL Server Management Studio",
+      "Power BI Desktop",
+      "Azure Data Studio",
+      "Power Query Online"
+    ],
+    "answer": ["Power Query Online"]
+  },
+  {
+    "id": 294,
+    "domain": "Dataflows Gen2",
+    "question": "Which of the following are supported data transformation options in Dataflows Gen2?",
+    "type": "checkbox",
+    "options": [
+      "Pivot and Unpivot",
+      "Filter and Sort rows",
+      "Merge and Append queries",
+      "Run DAX scripts directly",
+      "Replace values and Remove duplicates"
+    ],
+    "answer": [
+      "Pivot and Unpivot",
+      "Filter and Sort rows",
+      "Merge and Append queries",
+      "Replace values and Remove duplicates"
+    ]
+  },
+  {
+    "id": 295,
+    "domain": "Dataflows Gen2",
+    "question": "What is the purpose of the 'Queries pane' in Power Query Online?",
+    "type": "radio",
+    "options": [
+      "To show the destination of loaded data only",
+      "To write custom SQL queries",
+      "To view and manage the different data sources (queries)",
+      "To schedule refresh intervals"
+    ],
+    "answer": ["To view and manage the different data sources (queries)"]
+  },
+  {
+    "id": 296,
+    "domain": "Dataflows Gen2",
+    "question": "What can you do from the 'Query Settings' pane in a Dataflow Gen2?",
+    "type": "checkbox",
+    "options": [
+      "View and modify transformation steps",
+      "Edit M code directly",
+      "Change query destination",
+      "Delete or reorder applied steps",
+      "Schedule dataflow refresh"
+    ],
+    "answer": [
+      "View and modify transformation steps",
+      "Change query destination",
+      "Delete or reorder applied steps"
+    ]
+  },
+  {
+    "id": 297,
+    "domain": "Dataflows Gen2",
+    "question": "Which of the following are valid data destinations for a Dataflow Gen2?",
+    "type": "checkbox",
+    "options": [
+      "Lakehouse",
+      "PowerPoint",
+      "Warehouse",
+      "Excel Online",
+      "Azure Synapse Analytics"
+    ],
+    "answer": [
+      "Lakehouse",
+      "Warehouse",
+      "Azure Synapse Analytics"
+    ]
+  },
+  {
+    "id": 298,
+    "domain": "Dataflows Gen2",
+    "question": "What does the Data Preview pane in Power Query Online display?",
+    "type": "radio",
+    "options": [
+      "Only metadata about the query",
+      "All historical data from the source",
+      "A full export of the transformed data",
+      "A subset of data showing the effect of transformations"
+    ],
+    "answer": ["A subset of data showing the effect of transformations"]
+  },
+  {
+    "id": 299,
+    "domain": "Dataflows Gen2",
+    "question": "What is the main benefit of integrating Dataflows Gen2 into a data pipeline?",
+    "type": "radio",
+    "options": [
+      "It removes the need to transform data",
+      "It allows for running scripts or additional activities after the dataflow",
+      "It increases the row-level security of the dataflow",
+      "It removes the need to use Power Query"
+    ],
+    "answer": ["It allows for running scripts or additional activities after the dataflow"]
+  },
+  {
+    "id": 300,
+    "domain": "Dataflows Gen2",
+    "question": "Which of the following activities can be orchestrated in a data pipeline?",
+    "type": "checkbox",
+    "options": [
+      "Copy data",
+      "Execute a stored procedure",
+      "Refresh PowerPoint slides",
+      "Get metadata",
+      "Incorporate a Dataflow Gen2"
+    ],
+    "answer": [
+      "Copy data",
+      "Execute a stored procedure",
+      "Get metadata",
+      "Incorporate a Dataflow Gen2"
+    ]
+  },
+  {
+    "id": 301,
+    "domain": "Dataflows Gen2",
+    "question": "How can a pipeline improve the automation of a Dataflow Gen2?",
+    "type": "radio",
+    "options": [
+      "By enabling SQL Server Management Studio",
+      "By making the dataflow run continuously in the background",
+      "By using a trigger or schedule to run the dataflow automatically",
+      "By requiring the user to manually run the dataflow in the pipeline"
+    ],
+    "answer": ["By using a trigger or schedule to run the dataflow automatically"]
+  },
+  {
+    "id": 302,
+    "domain": "Dataflows Gen2",
+    "question": "What is a key use case for running a Dataflow Gen2 inside a pipeline?",
+    "type": "radio",
+    "options": [
+      "To deploy a report to production",
+      "To set up user authentication",
+      "To orchestrate additional tasks after data transformation",
+      "To configure workspace permissions"
+    ],
+    "answer": ["To orchestrate additional tasks after data transformation"]
+  },
+   {
+    "id": 303,
+    "domain": "Real-Time Intelligence",
+    "question": "What is the main difference between batch data analytics and real-time data analytics?",
+    "type": "radio",
+    "options": [
+      "Batch analytics requires less storage than real-time analytics",
+      "Batch analytics uses artificial intelligence while real-time does not",
+      "Batch analytics loads data periodically, while real-time analytics processes data as events occur",
+      "Real-time analytics only supports visualizations, not transformations"
+    ],
+    "answer": ["Batch analytics loads data periodically, while real-time analytics processes data as events occur"]
+  },
+  {
+    "id": 304,
+    "domain": "Real-Time Intelligence",
+    "question": "Which architecture combines batch and real-time data analytics?",
+    "type": "radio",
+    "options": [
+      "Star schema architecture",
+      "Snowflake architecture",
+      "Lambda architecture",
+      "SQL lakehouse architecture"
+    ],
+    "answer": ["Lambda architecture"]
+  },
+  {
+    "id": 305,
+    "domain": "Real-Time Intelligence",
+    "question": "Which of the following are capabilities of Microsoft Fabric’s Real-Time Intelligence features?",
+    "type": "checkbox",
+    "options": [
+      "Ingesting real-time data with eventstreams",
+      "Storing data in KQL databases for analysis",
+      "Automating alerts using Activator",
+      "Hosting static HTML reports",
+      "Visualizing data in real-time dashboards"
+    ],
+    "answer": [
+      "Ingesting real-time data with eventstreams",
+      "Storing data in KQL databases for analysis",
+      "Automating alerts using Activator",
+      "Visualizing data in real-time dashboards"
+    ]
+  },
+  {
+    "id": 306,
+    "domain": "Real-Time Intelligence",
+    "question": "What is one benefit of Microsoft Fabric’s Real-Time Intelligence for developers?",
+    "type": "radio",
+    "options": [
+      "It eliminates the need for SQL or KQL",
+      "It supports real-time dashboards using minimal code",
+      "It replaces all batch analytics tools",
+      "It only works with Power Apps"
+    ],
+    "answer": ["It supports real-time dashboards using minimal code"]
+  },
+  {
+    "id": 307,
+    "domain": "Real-Time Intelligence",
+    "question": "Which of the following best describes real-time data analytics?",
+    "type": "radio",
+    "options": [
+      "It processes static data stored in Excel sheets for trend analysis.",
+      "It analyzes a continuous stream of data as events occur.",
+      "It processes data from PowerPoint slides on demand.",
+      "It updates dashboards once per day using batch processing."
+    ],
+    "answer": ["It analyzes a continuous stream of data as events occur."]
+  },
+  {
+    "id": 308,
+    "domain": "Real-Time Intelligence",
+    "question": "Which are common goals of real-time data analytics?",
+    "type": "checkbox",
+    "options": [
+      "Continuously analyzing data to report issues or trends",
+      "Building PowerPoint reports from archived logs",
+      "Triggering alerts or actions when specific conditions are met",
+      "Understanding system behavior to plan enhancements",
+      "Converting video streams into static charts"
+    ],
+    "answer": [
+      "Continuously analyzing data to report issues or trends",
+      "Triggering alerts or actions when specific conditions are met",
+      "Understanding system behavior to plan enhancements"
+    ]
+  },
+  {
+    "id": 309,
+    "domain": "Real-Time Intelligence",
+    "question": "What is a defining feature of data in a real-time stream?",
+    "type": "radio",
+    "options": [
+      "It always contains user profile images",
+      "It includes temporal data about when the event occurred",
+      "It must be less than 10 KB in size",
+      "It can only be processed by batch jobs"
+    ],
+    "answer": ["It includes temporal data about when the event occurred"]
+  },
+  {
+    "id": 310,
+    "domain": "Real-Time Intelligence",
+    "question": "What is one benefit of using Microsoft Fabric for real-time data analytics?",
+    "type": "radio",
+    "options": [
+      "It requires advanced programming in Java or C++",
+      "It integrates real-time capabilities with the Fabric ecosystem with minimal coding",
+      "It only supports historical data analytics",
+      "It disables visualizations to speed up processing"
+    ],
+    "answer": ["It integrates real-time capabilities with the Fabric ecosystem with minimal coding"]
+  },{
+    "id": 311,
+    "domain": "Real-Time Intelligence",
+    "question": "What is the primary purpose of an eventstream in Microsoft Fabric Real-Time Intelligence?",
+    "type": "radio",
+    "options": [
+      "To generate static reports on historical data",
+      "To manage OneLake storage permissions",
+      "To capture, transform, and ingest real-time data from streaming sources",
+      "To schedule batch data refreshes"
+    ],
+    "answer": ["To capture, transform, and ingest real-time data from streaming sources"]
+  },
+  {
+    "id": 312,
+    "domain": "Real-Time Intelligence",
+    "question": "What types of data sources and workloads is Microsoft Fabric Real-Time Intelligence designed to handle?",
+    "type": "checkbox",
+    "options": [
+      "IoT",
+      "Manufacturing",
+      "Oil and Gas",
+      "Social media marketing",
+      "Automotive"
+    ],
+    "answer": [
+      "IoT",
+      "Manufacturing",
+      "Oil and Gas",
+      "Automotive"
+    ]
+  },
+  {
+    "id": 313,
+    "domain": "Real-Time Intelligence",
+    "question": "Which component in Real-Time Intelligence is used to store and query captured real-time data?",
+    "type": "radio",
+    "options": [
+      "Dataflow Gen2",
+      "Eventhouse",
+      "Power BI dataset",
+      "Notebook"
+    ],
+    "answer": ["Eventhouse"]
+  },
+  {
+    "id": 314,
+    "domain": "Real-Time Intelligence",
+    "question": "What are some capabilities of the Microsoft Fabric Real-Time hub?",
+    "type": "checkbox",
+    "options": [
+      "Create eventstreams",
+      "Schedule warehouse backups",
+      "Create Activator alerts",
+      "Build real-time dashboards",
+      "Manage Git repository branches"
+    ],
+    "answer": [
+      "Create eventstreams",
+      "Create Activator alerts",
+      "Build real-time dashboards"
+    ]
+  },
+  {
+    "id": 315,
+    "domain": "Real-Time Intelligence",
+    "question": "Which query language is used to analyze data in an eventhouse?",
+    "type": "radio",
+    "options": [
+      "SQL",
+      "M",
+      "DAX",
+      "KQL"
+    ],
+    "answer": ["KQL"]
+  },{
+    "id": 316,
+    "domain": "Real-Time Intelligence",
+    "question": "What is the main purpose of an eventstream in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To schedule batch jobs for historical data",
+      "To configure permissions for Fabric workspaces",
+      "To capture, transform, and load real-time data from streaming sources",
+      "To back up warehouse items"
+    ],
+    "answer": ["To capture, transform, and load real-time data from streaming sources"]
+  },
+  {
+    "id": 317,
+    "domain": "Real-Time Intelligence",
+    "question": "Which of the following are supported data sources for Microsoft Fabric eventstreams?",
+    "type": "checkbox",
+    "options": [
+      "Azure Event Hubs",
+      "Apache Kafka",
+      "Azure IoT Hub",
+      "Microsoft PowerPoint",
+      "Change Data Capture (CDC)"
+    ],
+    "answer": [
+      "Azure Event Hubs",
+      "Apache Kafka",
+      "Azure IoT Hub",
+      "Change Data Capture (CDC)"
+    ]
+  },
+  {
+    "id": 318,
+    "domain": "Real-Time Intelligence",
+    "question": "Which transformation creates a new row for each value within an array in Microsoft Fabric eventstreams?",
+    "type": "radio",
+    "options": [
+      "Group by",
+      "Expand",
+      "Aggregate",
+      "Union"
+    ],
+    "answer": ["Expand"]
+  },
+  {
+    "id": 319,
+    "domain": "Real-Time Intelligence",
+    "question": "What does the 'Union' transformation do in an eventstream?",
+    "type": "radio",
+    "options": [
+      "Combines multiple queries into a single Power BI dashboard",
+      "Combines two or more nodes with shared fields into one table",
+      "Aggregates metrics over a fixed time window",
+      "Converts batch queries into real-time streams"
+    ],
+    "answer": ["Combines two or more nodes with shared fields into one table"]
+  },
+  {
+    "id": 320,
+    "domain": "Real-Time Intelligence",
+    "question": "Which destinations can receive output from an eventstream in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Lakehouse",
+      "Eventhouse",
+      "Fabric Activator",
+      "SQL Server Agent",
+      "Custom Endpoint"
+    ],
+    "answer": [
+      "Lakehouse",
+      "Eventhouse",
+      "Fabric Activator",
+      "Custom Endpoint"
+    ]
+  },  {
+    "id": 321,
+    "domain": "Real-Time Intelligence",
+    "question": "What is the primary purpose of an eventhouse in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To build Power BI reports",
+      "To schedule batch refreshes",
+      "To store and analyze real-time data from eventstreams",
+      "To manage workspace permissions"
+    ],
+    "answer": ["To store and analyze real-time data from eventstreams"]
+  },
+  {
+    "id": 322,
+    "domain": "Real-Time Intelligence",
+    "question": "What are KQL querysets used for in an eventhouse?",
+    "type": "radio",
+    "options": [
+      "To manage user roles in Power BI",
+      "To generate dataflow transformations",
+      "To organize and execute collections of Kusto Query Language (KQL) queries",
+      "To deploy pipelines to production"
+    ],
+    "answer": ["To organize and execute collections of Kusto Query Language (KQL) queries"]
+  },
+  {
+    "id": 323,
+    "domain": "Real-Time Intelligence",
+    "question": "Which language is optimized for time-based analysis of large volumes of real-time data in Fabric?",
+    "type": "radio",
+    "options": [
+      "DAX",
+      "SQL",
+      "PowerShell",
+      "KQL"
+    ],
+    "answer": ["KQL"]
+  },
+  {
+    "id": 324,
+    "domain": "Real-Time Intelligence",
+    "question": "Which of the following are valid components that can exist within a KQL database in Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Shortcuts",
+      "Stored functions",
+      "Deployment pipelines",
+      "Materialized views",
+      "Data pipelines"
+    ],
+    "answer": [
+      "Shortcuts",
+      "Stored functions",
+      "Materialized views"
+    ]
+  },
+  {
+    "id": 325,
+    "domain": "Real-Time Intelligence",
+    "question": "How can Copilot assist with querying data in Real-Time Intelligence?",
+    "type": "radio",
+    "options": [
+      "By generating warehouse schemas automatically",
+      "By deploying semantic models to production",
+      "By recommending query optimizations in T-SQL only",
+      "By helping generate KQL queries based on natural language input"
+    ],
+    "answer": ["By helping generate KQL queries based on natural language input"]
+  }, 
+  {
+    "id": 330,
+    "domain": "Real-Time Intelligence",
+    "question": "What is the primary function of Activator in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To ingest and transform streaming data",
+      "To visualize data in real-time dashboards",
+      "To automate actions based on defined event rules",
+      "To query data using KQL and SQL"
+    ],
+    "answer": ["To automate actions based on defined event rules"]
+  },
+  {
+    "id": 331,
+    "domain": "Real-Time Intelligence",
+    "question": "Which of the following are core concepts of Activator?",
+    "type": "checkbox",
+    "options": [
+      "Events",
+      "Dashboards",
+      "Objects",
+      "Properties",
+      "Rules"
+    ],
+    "answer": [
+      "Events",
+      "Objects",
+      "Properties",
+      "Rules"
+    ]
+  },
+  {
+    "id": 332,
+    "domain": "Real-Time Intelligence",
+    "question": "Which scenario is an appropriate use case for Activator?",
+    "type": "radio",
+    "options": [
+      "Loading batch data into a lakehouse",
+      "Filtering columns in a KQL query",
+      "Sending alerts when a customer's account balance crosses a threshold",
+      "Scheduling semantic model refreshes"
+    ],
+    "answer": ["Sending alerts when a customer's account balance crosses a threshold"]
+  },
+  {
+    "id": 333,
+    "domain": "Real-Time Intelligence",
+    "question": "How does Activator determine when to trigger an action?",
+    "type": "radio",
+    "options": [
+      "Based on metadata updates in the workspace",
+      "By analyzing changes in the workspace structure",
+      "By applying rules to properties of objects in event records",
+      "By comparing data warehouse schema versions"
+    ],
+    "answer": ["By applying rules to properties of objects in event records"]
+  },
+  {
+    "id": 334,
+    "domain": "Real-Time Eventstreams",
+    "question": "What is a key benefit of using Microsoft Fabric Eventstreams?",
+    "type": "radio",
+    "options": [
+      "It only supports batch data loads",
+      "It requires advanced coding to set up",
+      "It allows real-time event processing without writing code",
+      "It only supports a single destination for each source"
+    ],
+    "answer": ["It allows real-time event processing without writing code"]
+  },
+  {
+    "id": 335,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which of the following are valid sources for Eventstreams in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Azure Event Hubs",
+      "Azure IoT Hub",
+      "Azure Storage",
+      "Apache Kafka",
+      "Power BI Reports"
+    ],
+    "answer": [
+      "Azure Event Hubs",
+      "Azure IoT Hub",
+      "Azure Storage",
+      "Apache Kafka"
+    ]
+  },
+  {
+    "id": 336,
+    "domain": "Real-Time Eventstreams",
+    "question": "What does the scalable infrastructure of Eventstreams help you achieve?",
+    "type": "radio",
+    "options": [
+      "Simplify Power BI report authoring",
+      "Capture real-time events without resource management",
+      "Avoid the need for cloud storage",
+      "Manually configure hardware settings for ingestion"
+    ],
+    "answer": ["Capture real-time events without resource management"]
+  },
+  {
+    "id": 337,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which of the following are common features of Microsoft Fabric Eventstreams?",
+    "type": "checkbox",
+    "options": [
+      "Drag-and-drop interface for transformations",
+      "Support for multiple event destinations",
+      "Manual server scaling configuration",
+      "Streaming ETL capabilities",
+      "SQL-only ingestion"
+    ],
+    "answer": [
+      "Drag-and-drop interface for transformations",
+      "Support for multiple event destinations",
+      "Streaming ETL capabilities"
+    ]
+  },
+   {
+    "id": 338,
+    "domain": "Real-Time Eventstreams",
+    "question": "What is the purpose of a transformation in an eventstream?",
+    "type": "radio",
+    "options": [
+      "To encrypt event data before storage",
+      "To visualize event data in Power BI",
+      "To perform operations like filtering or aggregating data in transit",
+      "To create SQL-based reports"
+    ],
+    "answer": ["To perform operations like filtering or aggregating data in transit"]
+  },
+  {
+    "id": 339,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which of the following are valid eventstream components in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Sources",
+      "Dataflows",
+      "Transformations",
+      "Destinations",
+      "Workspaces"
+    ],
+    "answer": ["Sources", "Transformations", "Destinations"]
+  },
+  {
+    "id": 340,
+    "domain": "Real-Time Eventstreams",
+    "question": "What role does the eventstream visual editor play in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "It secures data using encryption policies",
+      "It helps monitor Power BI reports",
+      "It allows users to design event pipelines with drag-and-drop functionality",
+      "It validates schema models for lakehouses"
+    ],
+    "answer": ["It allows users to design event pipelines with drag-and-drop functionality"]
+  },
+  {
+    "id": 341,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which of the following can be used as a destination in a Microsoft Fabric eventstream?",
+    "type": "checkbox",
+    "options": [
+      "Eventhouse",
+      "Lakehouse",
+      "Power BI Dataset",
+      "Another eventstream",
+      "Activator"
+    ],
+    "answer": [
+      "Eventhouse",
+      "Lakehouse",
+      "Another eventstream",
+      "Activator"
+    ]
+  },
+  {
+    "id": 342,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which of the following are valid eventstream data sources in Microsoft Fabric?",
+    "type": "checkbox",
+    "options": [
+      "Azure Event Hub",
+      "PostgreSQL CDC",
+      "Google Cloud Pub/Sub",
+      "Power BI Reports",
+      "Amazon Kinesis Data Streams"
+    ],
+    "answer": [
+      "Azure Event Hub",
+      "PostgreSQL CDC",
+      "Google Cloud Pub/Sub",
+      "Amazon Kinesis Data Streams"
+    ]
+  },
+  {
+    "id": 343,
+    "domain": "Real-Time Eventstreams",
+    "question": "What is a key benefit of using the Eventhouse as a destination in an eventstream?",
+    "type": "radio",
+    "options": [
+      "It supports real-time triggering of Fabric jobs",
+      "It allows querying of ingested data using Kusto Query Language (KQL)",
+      "It automatically anonymizes sensitive data",
+      "It enables visual editing of Power BI reports"
+    ],
+    "answer": ["It allows querying of ingested data using Kusto Query Language (KQL)"]
+  },
+  {
+    "id": 344,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which destination in an eventstream allows integration with external custom applications?",
+    "type": "radio",
+    "options": [
+      "Lakehouse",
+      "Derived Stream",
+      "Custom endpoint",
+      "Activator"
+    ],
+    "answer": ["Custom endpoint"]
+  },
+  {
+    "id": 345,
+    "domain": "Real-Time Eventstreams",
+    "question": "What distinguishes a derived stream in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "It stores data in Delta Lake format",
+      "It is the untransformed output from the original source",
+      "It represents the modified stream after applying transformations",
+      "It is used solely for error handling"
+    ],
+    "answer": ["It represents the modified stream after applying transformations"]
+  },
+  {
+    "id": 346,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which of the following statements is true about destinations in Microsoft Fabric eventstreams?",
+    "type": "radio",
+    "options": [
+      "You can only connect to one destination per eventstream",
+      "You must choose between Lakehouse and Eventhouse as destinations",
+      "You can send the same data to multiple destinations simultaneously",
+      "Custom endpoints are only supported for internal Microsoft apps"
+    ],
+    "answer": ["You can send the same data to multiple destinations simultaneously"]
+  },
+  {
+    "id": 347,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which of the following transformations are available in Microsoft Fabric Eventstreams?",
+    "type": "checkbox",
+    "options": [
+      "Filter",
+      "Aggregate",
+      "Join",
+      "Transpose",
+      "Expand"
+    ],
+    "answer": [
+      "Filter",
+      "Aggregate",
+      "Join",
+      "Expand"
+    ]
+  },
+  {
+    "id": 348,
+    "domain": "Real-Time Eventstreams",
+    "question": "What does the 'Group by' transformation allow you to do in an Eventstream?",
+    "type": "radio",
+    "options": [
+      "Change data formats",
+      "Perform complex aggregations over time windows",
+      "Encrypt event data for security",
+      "Filter out duplicate records"
+    ],
+    "answer": ["Perform complex aggregations over time windows"]
+  },
+  {
+    "id": 349,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which windowing function divides events into fixed, nonoverlapping time intervals?",
+    "type": "radio",
+    "options": [
+      "Tumbling window",
+      "Sliding window",
+      "Session window",
+      "Snapshot window"
+    ],
+    "answer": ["Tumbling window"]
+  },
+  {
+    "id": 350,
+    "domain": "Real-Time Eventstreams",
+    "question": "What is the purpose of the 'window offset' in a windowing function?",
+    "type": "radio",
+    "options": [
+      "It changes the grouping key for windows",
+      "It skips a portion of the data",
+      "It shifts the start and end time of the window",
+      "It increases the window duration"
+    ],
+    "answer": ["It shifts the start and end time of the window"]
+  },
+  {
+    "id": 351,
+    "domain": "Real-Time Eventstreams",
+    "question": "Which windowing function triggers an action when a specific period of inactivity is detected?",
+    "type": "radio",
+    "options": [
+      "Tumbling window",
+      "Session window",
+      "Hopping window",
+      "Snapshot window"
+    ],
+    "answer": ["Session window"]
+  },
+  {
+    "id": 352,
+    "domain": "Real-Time Eventstreams",
+    "question": "What is a unique feature of the Snapshot windowing function?",
+    "type": "radio",
+    "options": [
+      "It groups events by overlapping time intervals",
+      "It requires specifying a window duration",
+      "It groups events with the same timestamp",
+      "It automatically calculates averages over time"
+    ],
+    "answer": ["It groups events with the same timestamp"]
+  },
+   {
+    "id": 353,
+    "domain": "Eventhouse",
+    "question": "What is the primary purpose of an eventhouse in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "To store tabular business data for monthly reports",
+      "To archive data for long-term storage only",
+      "To store and analyze time-based real-time event data",
+      "To replace all lakehouse functionality"
+    ],
+    "answer": ["To store and analyze time-based real-time event data"]
+  },
+  {
+    "id": 354,
+    "domain": "Eventhouse",
+    "question": "Which of the following tools can be used to query data stored in an eventhouse?",
+    "type": "checkbox",
+    "options": [
+      "KQL Queryset",
+      "Power Automate",
+      "SQL (subset)",
+      "PowerShell",
+      "Copilot for Real-Time Intelligence"
+    ],
+    "answer": [
+      "KQL Queryset",
+      "SQL (subset)",
+      "Copilot for Real-Time Intelligence"
+    ]
+  },
+  {
+    "id": 355,
+    "domain": "Eventhouse",
+    "question": "Which Real-Time Intelligence features can work directly with data from an eventhouse?",
+    "type": "checkbox",
+    "options": [
+      "Real-Time Dashboards",
+      "Power BI Paginated Reports",
+      "Fabric Activator",
+      "Lakehouse Shortcuts",
+      "KQL Queries"
+    ],
+    "answer": [
+      "Real-Time Dashboards",
+      "Fabric Activator",
+      "KQL Queries"
+    ]
+  },
+  {
+    "id": 356,
+    "domain": "Eventhouse",
+    "question": "How is data typically loaded into an eventhouse?",
+    "type": "radio",
+    "options": [
+      "Using a Power BI report",
+      "Using a dataflow only",
+      "Using an eventstream",
+      "Using SSIS packages"
+    ],
+    "answer": ["Using an eventstream"]
+  },
+  {
+    "id": 357,
+    "domain": "Eventhouse",
+    "question": "What is required to create an eventhouse in Microsoft Fabric?",
+    "type": "radio",
+    "options": [
+      "A Power BI Premium workspace",
+      "A workspace with a Real-Time Intelligence Fabric capacity",
+      "A SQL Server Integration Services (SSIS) connection",
+      "An existing lakehouse item"
+    ],
+    "answer": ["A workspace with a Real-Time Intelligence Fabric capacity"]
+  },
+  {
+    "id": 358,
+    "domain": "Eventhouse",
+    "question": "Which of the following are valid sources from which you can ingest data into a KQL database in an eventhouse?",
+    "type": "checkbox",
+    "options": [
+      "Azure Event Hubs",
+      "Fabric eventstreams",
+      "PowerPoint files",
+      "OneLake",
+      "Local files"
+    ],
+    "answer": [
+      "Azure Event Hubs",
+      "Fabric eventstreams",
+      "OneLake",
+      "Local files"
+    ]
+  },
+  {
+    "id": 359,
+    "domain": "Eventhouse",
+    "question": "Which statement best describes the purpose of a KQL Queryset?",
+    "type": "radio",
+    "options": [
+      "It visualizes dashboards automatically",
+      "It helps with SQL query tuning for relational data",
+      "It simplifies KQL query development and testing",
+      "It is required to load data into a lakehouse"
+    ],
+    "answer": ["It simplifies KQL query development and testing"]
+  },
+  {
+    "id": 360,
+    "domain": "Eventhouse",
+    "question": "Why is KQL generally preferred over SQL in eventhouses?",
+    "type": "checkbox",
+    "options": [
+      "KQL is simpler to learn and use",
+      "KQL supports procedural programming",
+      "KQL is the native language of the engine",
+      "KQL integrates better with Power BI",
+      "KQL is optimized for performance"
+    ],
+    "answer": [
+      "KQL is simpler to learn and use",
+      "KQL is the native language of the engine",
+      "KQL is optimized for performance"
+    ]
+  },
+  {
+    "id": 361,
+    "domain": "Eventhouse",
+    "question": "What feature in a KQL queryset helps you create visual charts from your query results?",
+    "type": "radio",
+    "options": [
+      "Dashboard tiles",
+      "Advanced SQL renderer",
+      "Result visualizations",
+      "KQL Copilot"
+    ],
+    "answer": ["Result visualizations"]
+  },
+  {
+    "id": 362,
+    "domain": "Eventhouse",
+    "question": "What does Copilot for Real-Time Intelligence assist with in querysets?",
+    "type": "radio",
+    "options": [
+      "Writing SQL scripts",
+      "Creating new Fabric items",
+      "Generating KQL queries based on natural language questions",
+      "Scheduling data refreshes"
+    ],
+    "answer": ["Generating KQL queries based on natural language questions"]
+  },
+  {
+    "id": 363,
+    "domain": "Eventhouse",
+    "question": "Why should you use the `project` keyword in KQL queries?",
+    "type": "radio",
+    "options": [
+      "To filter rows by date",
+      "To combine multiple tables",
+      "To return only specific columns",
+      "To group data by time intervals"
+    ],
+    "answer": ["To return only specific columns"]
+  },
+  {
+    "id": 364,
+    "domain": "Eventhouse",
+    "question": "Which function would you use to return records from the last 30 minutes?",
+    "type": "radio",
+    "options": [
+      "getmonth()",
+      "now()",
+      "ingestion_time()",
+      "ago()"
+    ],
+    "answer": ["ago()"]
+  },
+  {
+    "id": 365,
+    "domain": "Eventhouse",
+    "question": "How does `ingestion_time()` help in filtering streaming data?",
+    "type": "radio",
+    "options": [
+      "It identifies missing fields in a record",
+      "It returns records based on their timestamp from the data source",
+      "It returns records based on when they were loaded into the table",
+      "It measures how long a query takes to complete"
+    ],
+    "answer": ["It returns records based on when they were loaded into the table"]
+  },
+  {
+    "id": 366,
+    "domain": "Eventhouse",
+    "question": "Which KQL query would retrieve only trips from the current month and year?",
+    "type": "radio",
+    "options": [
+      "`Automotive | where month == current_month`",
+      "`Automotive | where now() - pickup_datetime < 30`",
+      "`Automotive | where getmonth(pickup_datetime) == getmonth(now()) and getyear(pickup_datetime) == getyear(now())`",
+      "`Automotive | where pickup_datetime > 2023-01-01`"
+    ],
+    "answer": ["Automotive | where getmonth(pickup_datetime) == getmonth(now()) and getyear(pickup_datetime) == getyear(now())"]
+  },
+  {
+    "id": 367,
+    "domain": "Eventhouse",
+    "question": "What is the benefit of using the `summarize` keyword in KQL?",
+    "type": "radio",
+    "options": [
+      "To hide sensitive columns",
+      "To return the ingestion time of each record",
+      "To aggregate data across groups or time intervals",
+      "To project only string fields"
+    ],
+    "answer": ["To aggregate data across groups or time intervals"]
+  },
+  {
+    "id": 368,
+    "domain": "Eventhouse",
+    "question": "What is the primary purpose of a materialized view in a KQL database?",
+    "type": "radio",
+    "options": [
+      "To filter rows in a table in real time",
+      "To encapsulate logic that changes existing data",
+      "To summarize data from a source table for faster querying",
+      "To visualize query results"
+    ],
+    "answer": ["To summarize data from a source table for faster querying"]
+  },
+  {
+    "id": 369,
+    "domain": "Eventhouse",
+    "question": "How do you populate a materialized view with historical data already in the table?",
+    "type": "radio",
+    "options": [
+      "Use the `project` keyword",
+      "Enable auto-refresh",
+      "Use `.create async materialized-view with (backfill=true)`",
+      "Call the view manually with `ingest()`"
+    ],
+    "answer": [".create async materialized-view with (backfill=true)"]
+  },
+  {
+    "id": 370,
+    "domain": "Eventhouse",
+    "question": "Where can you find materialized views in the Fabric UI?",
+    "type": "radio",
+    "options": [
+      "Under the SQL views folder",
+      "Inside the dataset settings",
+      "In the Materialized views folder for the KQL database",
+      "Within the eventstream transformation panel"
+    ],
+    "answer": ["In the Materialized views folder for the KQL database"]
+  },
+  {
+    "id": 371,
+    "domain": "Eventhouse",
+    "question": "What is a benefit of using stored functions in KQL?",
+    "type": "radio",
+    "options": [
+      "They allow for real-time alerts to be triggered automatically",
+      "They encapsulate reusable queries and accept parameters for dynamic filtering",
+      "They can be used to enforce row-level security",
+      "They automatically optimize the query performance"
+    ],
+    "answer": ["They encapsulate reusable queries and accept parameters for dynamic filtering"]
+  },
+  {
+    "id": 372,
+    "domain": "Eventhouse",
+    "question": "What is the correct syntax to create or update a stored function in KQL?",
+    "type": "radio",
+    "options": [
+      ".update function",
+      ".define function",
+      ".create function persist",
+      ".create-or-alter function"
+    ],
+    "answer": [".create-or-alter function"]
   }
 ]

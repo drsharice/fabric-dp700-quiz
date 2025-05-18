@@ -39,6 +39,16 @@ function QuizScreen() {
     "Visualize the Data": "bg-pink-100 border-pink-500",
     "Analyze the Data": "bg-teal-100 border-teal-500",
     "Deploy and Maintain Assets": "bg-gray-100 border-gray-500",
+    "Data Movement": "bg-amber-100 border-amber-500",
+    "Data Warehouse": "bg-lime-100 border-lime-500",
+    "Load Data": "bg-cyan-100 border-cyan-500",
+    "Monitor": "bg-red-100 border-red-500",
+    "CI/CD": "bg-stone-100 border-stone-500",
+    "Secure data Access": "bg-emerald-100 border-emerald-500",
+    "DataFlows": "bg-violet-100 border-violet-500",
+    "Real-Time Intelligence": "bg-fuchsia-100 border-fuchsia-500",
+    "Real-Time Eventstream": "bg-rose-100 border-rose-500",
+    "Eventhouse": "bg-sky-100 border-sky-500",
     default: "bg-white border-gray-400"
   };
 
@@ -62,7 +72,12 @@ function QuizScreen() {
 
   return (
     <div className={`p-6 m-6 border-2 rounded-xl shadow-md ${colorClass}`}>
-      <h2 className="text-xl font-bold mb-4">{current.question}</h2>
+      <div className="flex justify-between items-center mb-4">
+        <h2 className="text-xl font-bold">{current.question}</h2>
+        <span className="text-xs font-semibold px-2 py-1 bg-black text-white rounded-full">
+          {current.domain}
+        </span>
+      </div>
       <div className="space-y-2 mb-6">
         {current.options.map(opt => (
           <label key={opt} className="block">

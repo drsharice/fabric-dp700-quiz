@@ -4,58 +4,61 @@ import questions from "../data/questions.json";
 export default function ReviewScreen() {
   const {
     userAnswers,
-    selectedDomains,
-    numQuestions,
     setQuizStarted,
-    setUserAnswers,
-    setScore,
-    score
+    setReviewMode,
+    score,
+    numQuestions,
   } = useQuiz();
 
   const filteredQuestions = questions
-    .filter((q) => selectedDomains.length === 0 || selectedDomains.includes(q.domain))
+    .filter(q => Object.keys(userAnswers).includes(String(q.id)))
     .slice(0, numQuestions);
 
-  const handleRestart = () => {
-    setUserAnswers({});
-    setScore(0);
-    setQuizStarted(false);
-  };
-
-  const isCorrect = (q) => {
-    const userAns = userAnswers[q.id] || [];
-    return JSON.stringify(userAns.sort()) === JSON.stringify(q.answer.sort());
-  };
+  const percentage = ((score / filteredQuestions.length) * 100).toFixed(0);
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold mb-6">Review Your Answers</h2>
-      <p className="mb-4 text-lg">You scored {score} out of {filteredQuestions.length}</p>
-      {filteredQuestions.map((q, idx) => (
-        <div key={q.id} className={`mb-6 p-4 border-l-4 rounded shadow ${isCorrect(q) ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50'}`}>
-          <h3 className="font-semibold">{idx + 1}. {q.question}</h3>
-          <p className="text-sm mt-2">Domain: <span className="font-medium">{q.domain}</span></p>
-          <div className="mt-2">
-            <p className="font-medium">Your Answer:</p>
-            <ul className="list-disc ml-6">
-              {(userAnswers[q.id] || []).map((ans, i) => (
-                <li key={i}>{ans}</li>
-              ))}
-            </ul>
-            <p className="mt-2 font-medium">Correct Answer:</p>
-            <ul className="list-disc ml-6">
-              {q.answer.map((ans, i) => (
-                <li key={i}>{ans}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      ))}
+    <div className="max-w-4xl mx-auto p-6">
+      <h2 className="text-2xl font-bold mb-4 text-green-700">
+        You got {score} out of {filteredQuestions.length} correct ({percentage}%)
+      </h2>
 
-      <div className="text-center mt-6">
+      {filteredQuestions.map((q) => {
+        const user = userAnswers[q.id] || [];
+        const isCorrect =
+          JSON.stringify(q.answer.sort()) === JSON.stringify(user.sort());
+
+        return (
+          <div
+            key={q.id}
+            className={`border p-4 my-4 rounded ${
+              isCorrect ? "border-green-400 bg-green-50" : "border-red-400 bg-red-50"
+            }`}
+          >
+            <div className="flex justify-between items-center">
+              <h3 className="font-semibold">{q.question}</h3>
+              <span className="text-xs font-medium bg-black text-white px-2 py-1 rounded-full">{q.domain}</span>
+            </div>
+            <div className="mt-2 text-sm">
+              <p className="mb-1">
+                <strong>Your answer:</strong> {user.join(", ") || "No answer"}
+              </p>
+              {!isCorrect && (
+                <p>
+                  <strong>Correct answer:</strong> {q.answer.join(", ")}
+                </p>
+              )}
+            </div>
+          </div>
+        );
+      })}
+
+      <div className="mt-6 space-x-4">
         <button
-          onClick={handleRestart}
-          className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          onClick={() => {
+            setReviewMode(false);
+            setQuizStarted(false);
+          }}
         >
           Back to Home
         </button>
