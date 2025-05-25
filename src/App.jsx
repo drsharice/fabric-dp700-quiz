@@ -73,7 +73,9 @@ function QuizScreen() {
   return (
     <div className={`p-6 m-6 border-2 rounded-xl shadow-md ${colorClass}`}>
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold">{current.question}</h2>
+        <h2 className="text-xl font-bold">
+          Question {currentIndex + 1} of {filteredQuestions.length}: {current.question}
+        </h2>
         <span className="text-xs font-semibold px-2 py-1 bg-black text-white rounded-full">
           {current.domain}
         </span>

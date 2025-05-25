@@ -22,7 +22,7 @@ export default function ReviewScreen() {
         You got {score} out of {filteredQuestions.length} correct ({percentage}%)
       </h2>
 
-      {filteredQuestions.map((q) => {
+      {filteredQuestions.map((q, index) => {
         const user = userAnswers[q.id] || [];
         const isCorrect =
           JSON.stringify(q.answer.sort()) === JSON.stringify(user.sort());
@@ -35,8 +35,12 @@ export default function ReviewScreen() {
             }`}
           >
             <div className="flex justify-between items-center">
-              <h3 className="font-semibold">{q.question}</h3>
-              <span className="text-xs font-medium bg-black text-white px-2 py-1 rounded-full">{q.domain}</span>
+              <h3 className="font-semibold">
+                Question {index + 1}: {q.question}
+              </h3>
+              <span className="text-xs font-medium bg-black text-white px-2 py-1 rounded-full">
+                {q.domain}
+              </span>
             </div>
             <div className="mt-2 text-sm">
               <p className="mb-1">
